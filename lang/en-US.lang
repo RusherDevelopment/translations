@@ -1,3 +1,4 @@
+[categories]
 module.category.chat.name=Chat
 module.category.combat.name=Combat
 module.category.miscellaneous.name=Miscellaneous
@@ -10,6 +11,27 @@ module.category.external.name=External
 
 
 
+[panels]
+ui.panel.external.name=External
+ui.panel.chat.name=Chat
+ui.panel.combat.name=Combat
+ui.panel.world.name=World
+ui.panel.player.name=Player
+ui.panel.movement.name=Movement
+ui.panel.miscellaneous.name=Miscellaneous
+ui.panel.render.name=Render
+ui.panel.client.name=Client
+
+
+
+[screens]
+ui.screen.clickgui.name=ClickGui
+ui.screen.hud_editor.name=Hud Editor
+ui.screen.windows.name=Windows
+
+
+
+[modules]
 feature.module.airplace.name=AirPlace
 feature.module.airplace.description=Place blocks in midair
 feature.module.airplace.setting.grim.name=Grim
@@ -2692,6 +2714,11 @@ feature.module.lagger.setting.mode.description=
 feature.module.lagger.setting.packets.name=Packets
 feature.module.lagger.setting.packets.description=
 
+feature.module.language.name=Language
+feature.module.language.description=Configure the language of RusherHack's interface
+feature.module.language.setting.language.name=Language
+feature.module.language.setting.language.description=
+
 feature.module.liquidinteract.name=LiquidInteract
 feature.module.liquidinteract.description=Place blocks on top of water
 
@@ -3035,30 +3062,30 @@ feature.module.noslow.setting.blocks.slimeblocks.description=
 feature.module.noslow.setting.sneak.name=Sneak
 feature.module.noslow.setting.sneak.description=
 
-feature.module.notifications.name=Notifier
-feature.module.notifications.description=Get toast notifications on your computer
-feature.module.notifications.setting.ingame.name=InGame
-feature.module.notifications.setting.ingame.description=
-feature.module.notifications.setting.ingame.info.name=Info
-feature.module.notifications.setting.ingame.info.description=
-feature.module.notifications.setting.queue.name=Queue
-feature.module.notifications.setting.queue.description=
-feature.module.notifications.setting.damage.name=Damage
-feature.module.notifications.setting.damage.description=
-feature.module.notifications.setting.death.name=Death
-feature.module.notifications.setting.death.description=
-feature.module.notifications.setting.disconnect.name=Disconnect
-feature.module.notifications.setting.disconnect.description=
-feature.module.notifications.setting.mention.name=Mention
-feature.module.notifications.setting.mention.description=
-feature.module.notifications.setting.whisper.name=Whisper
-feature.module.notifications.setting.whisper.description=
-feature.module.notifications.setting.totempop.name=TotemPop
-feature.module.notifications.setting.totempop.description=
-feature.module.notifications.setting.focusedcheck.name=FocusedCheck
-feature.module.notifications.setting.focusedcheck.description=
-feature.module.notifications.setting.servermessages.name=ServerMessages
-feature.module.notifications.setting.servermessages.description=
+feature.module.notifier.name=Notifier
+feature.module.notifier.description=Get toast notifications on your computer
+feature.module.notifier.setting.ingame.name=InGame
+feature.module.notifier.setting.ingame.description=
+feature.module.notifier.setting.ingame.info.name=Info
+feature.module.notifier.setting.ingame.info.description=
+feature.module.notifier.setting.queue.name=Queue
+feature.module.notifier.setting.queue.description=
+feature.module.notifier.setting.damage.name=Damage
+feature.module.notifier.setting.damage.description=
+feature.module.notifier.setting.death.name=Death
+feature.module.notifier.setting.death.description=
+feature.module.notifier.setting.disconnect.name=Disconnect
+feature.module.notifier.setting.disconnect.description=
+feature.module.notifier.setting.mention.name=Mention
+feature.module.notifier.setting.mention.description=
+feature.module.notifier.setting.whisper.name=Whisper
+feature.module.notifier.setting.whisper.description=
+feature.module.notifier.setting.totempop.name=TotemPop
+feature.module.notifier.setting.totempop.description=
+feature.module.notifier.setting.focusedcheck.name=FocusedCheck
+feature.module.notifier.setting.focusedcheck.description=
+feature.module.notifier.setting.servermessages.name=ServerMessages
+feature.module.notifier.setting.servermessages.description=
 
 feature.module.nuker.name=Nuker
 feature.module.nuker.description=Destroy blocks around you
@@ -3991,6 +4018,7 @@ feature.module.zoom.setting.cinematic.description=
 
 
 
+[hud elements]
 feature.hud_element.name.name=Name
 feature.hud_element.name.description=Show the player name
 feature.hud_element.name.setting.color.name=Color
@@ -4458,6 +4486,7 @@ feature.hud_element.entitylist.setting.metadata.color.description=
 
 
 
+[windows]
 feature.window.alt_manager.name=Alt Manager
 feature.window.alt_manager.description=
 feature.window.alt_manager.setting.autoreauth.name=AutoReauth
