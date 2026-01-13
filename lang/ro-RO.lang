@@ -1,4 +1,3 @@
-# categories
 module.category.chat.name=Chat
 module.category.combat.name=Combat
 module.category.miscellaneous.name=Miscellaneous
@@ -8,10 +7,6 @@ module.category.render.name=Render
 module.category.world.name=World
 module.category.client.name=Client
 module.category.external.name=External
-
-
-
-# panels
 ui.panel.external.name=External
 ui.panel.client.name=Client
 ui.panel.combat.name=Combat
@@ -21,17 +16,9 @@ ui.panel.chat.name=Chat
 ui.panel.miscellaneous.name=Miscellaneous
 ui.panel.movement.name=Movement
 ui.panel.player.name=Player
-
-
-
-# screens
 ui.screen.clickgui.name=ClickGui
 ui.screen.hud_editor.name=Hud Editor
 ui.screen.windows.name=Windows
-
-
-
-# modules
 feature.module.airplace.name=AirPlace
 feature.module.airplace.description=Place blocks in midair
 feature.module.airplace.setting.grim.name=Grim
@@ -40,7 +27,6 @@ feature.module.airplace.setting.render.name=Render
 feature.module.airplace.setting.render.description=
 feature.module.airplace.setting.render.color.name=Color
 feature.module.airplace.setting.render.color.description=
-
 feature.module.anchor.name=Anchor
 feature.module.anchor.description=Stops your movement when you are over a hole
 feature.module.anchor.setting.height.name=Height
@@ -67,7 +53,6 @@ feature.module.anchor.setting.pitchcontrol.pitch.name=Pitch
 feature.module.anchor.setting.pitchcontrol.pitch.description=
 feature.module.anchor.setting.delay.name=Delay
 feature.module.anchor.setting.delay.description=
-
 feature.module.announcer.name=Announcer
 feature.module.announcer.description=Announces what you are doing in chat
 feature.module.announcer.setting.clientside.name=ClientSide
@@ -118,7 +103,6 @@ feature.module.announcer.setting.time.midnight.name=Midnight
 feature.module.announcer.setting.time.midnight.description=
 feature.module.announcer.setting.time.sunrise.name=Sunrise
 feature.module.announcer.setting.time.sunrise.description=
-
 feature.module.antiafk.name=AntiAFK
 feature.module.antiafk.description=Do things to prevent afk kick
 feature.module.antiafk.setting.delay.name=Delay
@@ -141,7 +125,6 @@ feature.module.antiafk.setting.move.name=Move
 feature.module.antiafk.setting.move.description=
 feature.module.antiafk.setting./stats.name=/stats
 feature.module.antiafk.setting./stats.description=
-
 feature.module.antiaim.name=AntiAim
 feature.module.antiaim.description=Makes you look crazy
 feature.module.antiaim.setting.yaw.name=Yaw
@@ -156,7 +139,6 @@ feature.module.antiaim.setting.custompitch.name=CustomPitch
 feature.module.antiaim.setting.custompitch.description=
 feature.module.antiaim.setting.2b2t.name=2b2t
 feature.module.antiaim.setting.2b2t.description=
-
 feature.module.antihunger.name=AntiHunger
 feature.module.antihunger.description=Reduces hunger loss
 feature.module.antihunger.setting.elytracheck.name=ElytraCheck
@@ -165,12 +147,10 @@ feature.module.antihunger.setting.ground.name=Ground
 feature.module.antihunger.setting.ground.description=
 feature.module.antihunger.setting.sprint.name=Sprint
 feature.module.antihunger.setting.sprint.description=
-
 feature.module.antilevitation.name=AntiLevitation
 feature.module.antilevitation.description=Removes the levitation effect
 feature.module.antilevitation.setting.mode.name=Mode
 feature.module.antilevitation.setting.mode.description=Action taken when levitation is active
-
 feature.module.antipacket.name=AntiPacket
 feature.module.antipacket.description=Allows you to cancel certain packets
 feature.module.antipacket.setting.debug.name=Debug
@@ -179,14 +159,12 @@ feature.module.antipacket.setting.clientbound.name=Clientbound
 feature.module.antipacket.setting.clientbound.description=
 feature.module.antipacket.setting.serverbound.name=Serverbound
 feature.module.antipacket.setting.serverbound.description=
-
 feature.module.antiquit.name=AntiQuit
 feature.module.antiquit.description=Prevents accidental disconnects and game closes
 feature.module.antiquit.setting.disconnect.name=Disconnect
 feature.module.antiquit.setting.disconnect.description=
 feature.module.antiquit.setting.gameclose.name=GameClose
 feature.module.antiquit.setting.gameclose.description=
-
 feature.module.antispam.name=AntiSpam
 feature.module.antispam.description=Remove spam from chat
 feature.module.antispam.setting.mode.name=Mode
@@ -217,7 +195,6 @@ feature.module.antispam.setting.blacklist.words.name=Words
 feature.module.antispam.setting.blacklist.words.description=
 feature.module.antispam.setting.blacklist.regex.name=Regex
 feature.module.antispam.setting.blacklist.regex.description=
-
 feature.module.armoralert.name=ArmorAlert
 feature.module.armoralert.description=Alerts you and other players when your or someone's armor durability is low
 feature.module.armoralert.setting.render.name=Render
@@ -238,7 +215,6 @@ feature.module.armoralert.setting.nolongerlow_alert.name=NoLongerLow Alert
 feature.module.armoralert.setting.nolongerlow_alert.description=
 feature.module.armoralert.setting.threshold%.name=Threshold%
 feature.module.armoralert.setting.threshold%.description=
-
 feature.module.aura.name=Aura
 feature.module.aura.description=Automatically attack entities nearby
 feature.module.aura.setting.reach.name=Reach
@@ -299,7 +275,6 @@ feature.module.aura.setting.pausewhileeating.name=PauseWhileEating
 feature.module.aura.setting.pausewhileeating.description=
 feature.module.aura.setting.disableondeath.name=DisableOnDeath
 feature.module.aura.setting.disableondeath.description=
-
 feature.module.autoaccept.name=AutoAccept
 feature.module.autoaccept.description=Automatically accept tpa requests and duel requests
 feature.module.autoaccept.setting.deny.name=Deny
@@ -310,7 +285,6 @@ feature.module.autoaccept.setting.tpa.name=TPA
 feature.module.autoaccept.setting.tpa.description=
 feature.module.autoaccept.setting.duels.name=Duels
 feature.module.autoaccept.setting.duels.description=
-
 feature.module.autoarmor.name=AutoArmor
 feature.module.autoarmor.description=Automatically equips your best armor
 feature.module.autoarmor.setting.delay.name=Delay
@@ -335,7 +309,6 @@ feature.module.autoarmor.setting.piglingold.name=PiglinGold
 feature.module.autoarmor.setting.piglingold.description=Prioritize wearing a piece of gold armor when near a piglin
 feature.module.autoarmor.setting.piglingold.range.name=Range
 feature.module.autoarmor.setting.piglingold.range.description=
-
 feature.module.autocrystal.name=AutoCrystal
 feature.module.autocrystal.description=Automatically places and explodes end crystals for crystal pvp
 feature.module.autocrystal.setting.targeting.name=Targeting
@@ -572,7 +545,6 @@ feature.module.autocrystal.setting.visualdebug.name=VisualDebug
 feature.module.autocrystal.setting.visualdebug.description=
 feature.module.autocrystal.setting.visualdebug2.name=VisualDebug2
 feature.module.autocrystal.setting.visualdebug2.description=
-
 feature.module.autodisconnect.name=AutoDisconnect
 feature.module.autodisconnect.description=Automatically logs you out when you have low health
 feature.module.autodisconnect.setting.autotoggle.name=AutoToggle
@@ -631,7 +603,6 @@ feature.module.autodisconnect.setting.ylevel.name=YLevel
 feature.module.autodisconnect.setting.ylevel.description=
 feature.module.autodisconnect.setting.ylevel.level.name=Level
 feature.module.autodisconnect.setting.ylevel.level.description=
-
 feature.module.autoexp.name=AutoEXP
 feature.module.autoexp.description=Automatically repair your armor
 feature.module.autoexp.setting.mode.name=Mode
@@ -660,7 +631,6 @@ feature.module.autoexp.setting.autoswitch.return.name=Return
 feature.module.autoexp.setting.autoswitch.return.description=Returns to the previous item you were holding
 feature.module.autoexp.setting.rotate.name=Rotate
 feature.module.autoexp.setting.rotate.description=
-
 feature.module.autoeat.name=AutoEat
 feature.module.autoeat.description=Automatically eat when you are hungry
 feature.module.autoeat.setting.mode.name=Mode
@@ -683,7 +653,6 @@ feature.module.autoeat.setting.chorus.name=Chorus
 feature.module.autoeat.setting.chorus.description=
 feature.module.autoeat.setting.poisonous.name=Poisonous
 feature.module.autoeat.setting.poisonous.description=
-
 feature.module.autofish.name=AutoFish
 feature.module.autofish.description=Automatically reels your fishing rod
 feature.module.autofish.setting.autodisable.name=AutoDisable
@@ -694,7 +663,6 @@ feature.module.autofish.setting.castdelay.name=CastDelay
 feature.module.autofish.setting.castdelay.description=
 feature.module.autofish.setting.mode.name=Mode
 feature.module.autofish.setting.mode.description=
-
 feature.module.automine.name=AutoMine
 feature.module.automine.description=Automatically mines
 feature.module.automine.setting.mode.name=Mode
@@ -725,7 +693,6 @@ feature.module.automine.setting.raytrace.name=Raytrace
 feature.module.automine.setting.raytrace.description=
 feature.module.automine.setting.rotate.name=Rotate
 feature.module.automine.setting.rotate.description=
-
 feature.module.automount.name=AutoMount
 feature.module.automount.description=Automatically mount entities
 feature.module.automount.setting.targets.name=Targets
@@ -752,7 +719,6 @@ feature.module.automount.setting.tamed.name=Tamed
 feature.module.automount.setting.tamed.description=
 feature.module.automount.setting.rotate.name=Rotate
 feature.module.automount.setting.rotate.description=
-
 feature.module.autonametag.name=AutoNametag
 feature.module.autonametag.description=Automatically rename entities nearby
 feature.module.autonametag.setting.mode.name=Mode
@@ -777,14 +743,12 @@ feature.module.autonametag.setting.range.name=Range
 feature.module.autonametag.setting.range.description=
 feature.module.autonametag.setting.delay.name=Delay
 feature.module.autonametag.setting.delay.description=
-
 feature.module.autoreconnect.name=AutoReconnect
 feature.module.autoreconnect.description=Automatically reconnect to servers
 feature.module.autoreconnect.setting.delay.name=Delay
 feature.module.autoreconnect.setting.delay.description=
 feature.module.autoreconnect.setting.hide.name=Hide
 feature.module.autoreconnect.setting.hide.description=
-
 feature.module.autoreply.name=AutoReply
 feature.module.autoreply.description=Automatically reply to messages
 feature.module.autoreply.setting.globalchat.name=GlobalChat
@@ -813,14 +777,12 @@ feature.module.autoreply.setting.focuscheck.name=FocusCheck
 feature.module.autoreply.setting.focuscheck.description=Only trigger while not actively tabbed into the game
 feature.module.autoreply.setting.triggerdelay.name=TriggerDelay
 feature.module.autoreply.setting.triggerdelay.description=The time to wait in seconds before being able to reply to another message
-
 feature.module.autorespawn.name=AutoRespawn
 feature.module.autorespawn.description=Automatically respawn when you die
 feature.module.autorespawn.setting.deathcoords.name=DeathCoords
 feature.module.autorespawn.setting.deathcoords.description=
 feature.module.autorespawn.setting.delay.name=Delay
 feature.module.autorespawn.setting.delay.description=
-
 feature.module.autoshear.name=AutoShear
 feature.module.autoshear.description=Automatically shears mobs
 feature.module.autoshear.setting.range.name=Range
@@ -839,7 +801,6 @@ feature.module.autoshear.setting.targets.mushroomcows.name=MushroomCows
 feature.module.autoshear.setting.targets.mushroomcows.description=
 feature.module.autoshear.setting.targets.snowgolems.name=SnowGolems
 feature.module.autoshear.setting.targets.snowgolems.description=
-
 feature.module.autosurround.name=AutoSurround
 feature.module.autosurround.description=Automatically surrounds your feet with obsidian
 feature.module.autosurround.setting.mode.name=Mode
@@ -890,7 +851,6 @@ feature.module.autosurround.setting.render.width.name=Width
 feature.module.autosurround.setting.render.width.description=Width of outline
 feature.module.autosurround.setting.render.depthtest.name=DepthTest
 feature.module.autosurround.setting.render.depthtest.description=Hide hidden sides
-
 feature.module.autotool.name=AutoTool
 feature.module.autotool.description=Automatically switch to the best tool
 feature.module.autotool.setting.attacking.name=Attacking
@@ -913,7 +873,6 @@ feature.module.autotool.setting.mindurability.name=MinDurability
 feature.module.autotool.setting.mindurability.description=
 feature.module.autotool.setting.delay.name=Delay
 feature.module.autotool.setting.delay.description=
-
 feature.module.autototem.name=AutoTotem
 feature.module.autototem.description=Automatically places a totem in your offhand
 feature.module.autototem.setting.mode.name=Mode
@@ -962,7 +921,6 @@ feature.module.autototem.setting.stopeating.name=StopEating
 feature.module.autototem.setting.stopeating.description=
 feature.module.autototem.setting.whileeating.name=WhileEating
 feature.module.autototem.setting.whileeating.description=
-
 feature.module.autotrader.name=AutoTrader
 feature.module.autotrader.description=Automatically trades with villagers
 feature.module.autotrader.setting.mode.name=Mode
@@ -979,7 +937,6 @@ feature.module.autotrader.setting.delay.name=Delay
 feature.module.autotrader.setting.delay.description=
 feature.module.autotrader.setting.debug.name=Debug
 feature.module.autotrader.setting.debug.description=
-
 feature.module.autotrap.name=AutoTrap
 feature.module.autotrap.description=Automatically traps enemies with obsidian
 feature.module.autotrap.setting.mode.name=Mode
@@ -1022,7 +979,6 @@ feature.module.autotrap.setting.render.name=Render
 feature.module.autotrap.setting.render.description=
 feature.module.autotrap.setting.render.color.name=Color
 feature.module.autotrap.setting.render.color.description=
-
 feature.module.autotunnel.name=AutoTunnel
 feature.module.autotunnel.description=Automatically tunnels through blocks
 feature.module.autotunnel.setting.height.name=Height
@@ -1041,7 +997,6 @@ feature.module.autotunnel.setting.render.name=Render
 feature.module.autotunnel.setting.render.description=
 feature.module.autotunnel.setting.autowalk.name=AutoWalk
 feature.module.autotunnel.setting.autowalk.description=
-
 feature.module.autowalk.name=AutoWalk
 feature.module.autowalk.description=Automatically walks
 feature.module.autowalk.setting.onlyelytra.name=OnlyElytra
@@ -1054,7 +1009,6 @@ feature.module.autowalk.setting.pauseonlag.delay.name=Delay
 feature.module.autowalk.setting.pauseonlag.delay.description=
 feature.module.autowalk.setting.debug.name=Debug
 feature.module.autowalk.setting.debug.description=
-
 feature.module.autoweb.name=AutoWeb
 feature.module.autoweb.description=Automatically places web
 feature.module.autoweb.setting.mode.name=Mode
@@ -1091,7 +1045,6 @@ feature.module.autoweb.setting.render.name=Render
 feature.module.autoweb.setting.render.description=
 feature.module.autoweb.setting.render.color.name=Color
 feature.module.autoweb.setting.render.color.description=
-
 feature.module.autowither.name=AutoWither
 feature.module.autowither.description=Automatically spawn a wither
 feature.module.autowither.setting.mode.name=Mode
@@ -1110,7 +1063,6 @@ feature.module.autowither.setting.render.name=Render
 feature.module.autowither.setting.render.description=
 feature.module.autowither.setting.render.color.name=Color
 feature.module.autowither.setting.render.color.description=
-
 feature.module.avoid.name=Avoid
 feature.module.avoid.description=Avoid dangerous stuff
 feature.module.avoid.setting.fire.name=Fire
@@ -1125,7 +1077,6 @@ feature.module.avoid.setting.endermen.name=Endermen
 feature.module.avoid.setting.endermen.description=Avoid looking into the eyes of endermen
 feature.module.avoid.setting.unloaded.name=Unloaded
 feature.module.avoid.setting.unloaded.description=
-
 feature.module.background.name=Background
 feature.module.background.description=Cool additions to the background of GUIs
 feature.module.background.setting.particles.name=Particles
@@ -1182,7 +1133,6 @@ feature.module.background.setting.visibility.mainmenu.name=MainMenu
 feature.module.background.setting.visibility.mainmenu.description=
 feature.module.background.setting.visibility.others.name=Others
 feature.module.background.setting.visibility.others.description=
-
 feature.module.basefinder.name=BaseFinder
 feature.module.basefinder.description=AFK module to find bases/stashes with minimal effort
 feature.module.basefinder.setting.logger.name=Logger
@@ -1219,12 +1169,10 @@ feature.module.basefinder.setting.logger.chestrequired.name=ChestRequired
 feature.module.basefinder.setting.logger.chestrequired.description=
 feature.module.basefinder.setting.logger.notification.censorcoords.name=CensorCoords
 feature.module.basefinder.setting.logger.notification.censorcoords.description=
-
 feature.module.blink.name=Blink
 feature.module.blink.description=Holds your packets until you disable it
 feature.module.blink.setting.timelimit.name=TimeLimit
 feature.module.blink.setting.timelimit.description=Seconds after enabling in which blink will be disabled
-
 feature.module.blockoutline.name=BlockOutline
 feature.module.blockoutline.description=Highlights the block you are looking at
 feature.module.blockoutline.setting.thickness.name=Thickness
@@ -1235,12 +1183,10 @@ feature.module.blockoutline.setting.fill.name=Fill
 feature.module.blockoutline.setting.fill.description=Fill the highlighted block with a color
 feature.module.blockoutline.setting.color.name=Color
 feature.module.blockoutline.setting.color.description=
-
 feature.module.blocktweaks.name=BlockTweaks
 feature.module.blocktweaks.description=Tweaks for block related actions
 feature.module.blocktweaks.setting.abort.name=Abort
 feature.module.blocktweaks.setting.abort.description=Allows you to stop and continue mining at the same break progress
-
 feature.module.boatfly.name=BoatFly
 feature.module.boatfly.description=Fly with boats
 feature.module.boatfly.setting.speed.name=Speed
@@ -1275,7 +1221,6 @@ feature.module.boatfly.setting.toggleondisconnect.name=ToggleOnDisconnect
 feature.module.boatfly.setting.toggleondisconnect.description=
 feature.module.boatfly.setting.boatscale.name=BoatScale
 feature.module.boatfly.setting.boatscale.description=
-
 feature.module.borders.name=Borders
 feature.module.borders.description=Shows chunk and region borders
 feature.module.borders.setting.ylevel.name=YLevel
@@ -1324,12 +1269,10 @@ feature.module.borders.setting.spawneractivation.fill.name=Fill
 feature.module.borders.setting.spawneractivation.fill.description=Fill the border
 feature.module.borders.setting.spawneractivation.outline.name=Outline
 feature.module.borders.setting.spawneractivation.outline.description=Outline the border
-
 feature.module.bossstack.name=BossStack
 feature.module.bossstack.description=Modify the boss bars
 feature.module.bossstack.setting.mode.name=Mode
 feature.module.bossstack.setting.mode.description=
-
 feature.module.bowaimbot.name=BowAimbot
 feature.module.bowaimbot.description=Automatically aims your bow
 feature.module.bowaimbot.setting.targets.name=Targets
@@ -1358,7 +1301,6 @@ feature.module.bowaimbot.setting.targets.passives.ignoretamed.name=IgnoreTamed
 feature.module.bowaimbot.setting.targets.passives.ignoretamed.description=
 feature.module.bowaimbot.setting.extrapolation.name=Extrapolation
 feature.module.bowaimbot.setting.extrapolation.description=How many ticks in the future to extrapolate
-
 feature.module.bowspam.name=BowSpam
 feature.module.bowspam.description=Spam arrows
 feature.module.bowspam.setting.ticks.name=Ticks
@@ -1367,7 +1309,6 @@ feature.module.bowspam.setting.bowbomb.name=BowBomb
 feature.module.bowspam.setting.bowbomb.description=
 feature.module.bowspam.setting.others.name=Others
 feature.module.bowspam.setting.others.description=
-
 feature.module.breadcrumbs.name=BreadCrumbs
 feature.module.breadcrumbs.description=Draws a line behind you
 feature.module.breadcrumbs.setting.active.name=Active
@@ -1378,7 +1319,6 @@ feature.module.breadcrumbs.setting.limit.name=Limit
 feature.module.breadcrumbs.setting.limit.description=
 feature.module.breadcrumbs.setting.color.name=Color
 feature.module.breadcrumbs.setting.color.description=
-
 feature.module.breakesp.name=BreakESP
 feature.module.breakesp.description=Highlights blocks that are being broken
 feature.module.breakesp.setting.ignoreself.name=IgnoreSelf
@@ -1399,10 +1339,8 @@ feature.module.breakesp.setting.outline.static.name=Static
 feature.module.breakesp.setting.outline.static.description=
 feature.module.breakesp.setting.depthtest.name=DepthTest
 feature.module.breakesp.setting.depthtest.description=Hide hidden sides
-
 feature.module.capes.name=Capes
 feature.module.capes.description=Show rusherhack capes on other rusherhack players
-
 feature.module.chams.name=Chams
 feature.module.chams.description=Change the way models are rendered
 feature.module.chams.setting.glint.name=Glint
@@ -1437,7 +1375,6 @@ feature.module.chams.setting.entities.endcrystals.name=EndCrystals
 feature.module.chams.setting.entities.endcrystals.description=
 feature.module.chams.setting.entities.players.self.name=Self
 feature.module.chams.setting.entities.players.self.description=
-
 feature.module.chatappend.name=ChatAppend
 feature.module.chatappend.description=Automatically adds text to your chat messages
 feature.module.chatappend.setting.custom.name=Custom
@@ -1456,10 +1393,8 @@ feature.module.chatappend.setting.separator.name=Separator
 feature.module.chatappend.setting.separator.description=
 feature.module.chatappend.setting.separator.separator_text.name=Separator text
 feature.module.chatappend.setting.separator.separator_text.description=
-
 feature.module.chatcolors.name=ChatColors
 feature.module.chatcolors.description=Shows chat colors in chat clientside
-
 feature.module.choruscontrol.name=ChorusControl
 feature.module.choruscontrol.description=Know where chorus fruit will teleport you
 feature.module.choruscontrol.setting.accept.name=Accept
@@ -1472,19 +1407,16 @@ feature.module.choruscontrol.setting.tracer.name=Tracer
 feature.module.choruscontrol.setting.tracer.description=
 feature.module.choruscontrol.setting.color.name=Color
 feature.module.choruscontrol.setting.color.description=
-
 feature.module.clickgui.name=ClickGUI
 feature.module.clickgui.description=Screen to configure modules
 feature.module.clickgui.setting.scale.name=Scale
 feature.module.clickgui.setting.scale.description=Change how big the ClickGUI is
 feature.module.clickgui.setting.allowexternalmodulesindefaultcategories.name=AllowExternalModulesInDefaultCategories
 feature.module.clickgui.setting.allowexternalmodulesindefaultcategories.description=
-
 feature.module.clientsidetime.name=ClientSideTime
 feature.module.clientsidetime.description=Set the time client-side
 feature.module.clientsidetime.setting.time.name=Time
 feature.module.clientsidetime.setting.time.description=
-
 feature.module.colors.name=Colors
 feature.module.colors.description=Configure various color settings
 feature.module.colors.setting.rainbow_settings.name=Rainbow Settings
@@ -1541,14 +1473,12 @@ feature.module.colors.setting.distance_colors.far.name=Far
 feature.module.colors.setting.distance_colors.far.description=
 feature.module.colors.setting.distance_colors.close.name=Close
 feature.module.colors.setting.distance_colors.close.description=
-
 feature.module.config.name=Config
 feature.module.config.description=Settings for rusherhack's config system
 feature.module.config.setting.autosave.name=AutoSave
 feature.module.config.setting.autosave.description=
 feature.module.config.setting.autosave.interval.name=Interval
 feature.module.config.setting.autosave.interval.description=Minutes between autosaving
-
 feature.module.coordlogger.name=CoordLogger
 feature.module.coordlogger.description=Prints coords of sounds that play
 feature.module.coordlogger.setting.teleportation.name=Teleportation
@@ -1563,7 +1493,6 @@ feature.module.coordlogger.setting.withers.name=Withers
 feature.module.coordlogger.setting.withers.description=
 feature.module.coordlogger.setting.othersounds.name=OtherSounds
 feature.module.coordlogger.setting.othersounds.description=
-
 feature.module.criticals.name=Criticals
 feature.module.criticals.description=Always do critical hits
 feature.module.criticals.setting.mode.name=Mode
@@ -1572,7 +1501,6 @@ feature.module.criticals.setting.strict.name=Strict
 feature.module.criticals.setting.strict.description=
 feature.module.criticals.setting.whilesprinting.name=WhileSprinting
 feature.module.criticals.setting.whilesprinting.description=Allows criticals while sprinting
-
 feature.module.crosshair.name=Crosshair
 feature.module.crosshair.description=Custom crosshair
 feature.module.crosshair.setting.mode.name=Mode
@@ -1595,7 +1523,6 @@ feature.module.crosshair.setting.hoffset.name=HOffset
 feature.module.crosshair.setting.hoffset.description=
 feature.module.crosshair.setting.voffset.name=VOffset
 feature.module.crosshair.setting.voffset.description=
-
 feature.module.customfont.name=CustomFont
 feature.module.customfont.description=Change RusherHack's font settings
 feature.module.customfont.setting.font.name=Font
@@ -1628,7 +1555,6 @@ feature.module.customfont.setting.windows.name=Windows
 feature.module.customfont.setting.windows.description=
 feature.module.customfont.setting.windows.shadow.name=Shadow
 feature.module.customfont.setting.windows.shadow.description=
-
 feature.module.esp.name=ESP
 feature.module.esp.description=Highlight entities in the world
 feature.module.esp.setting.entities.name=Entities
@@ -1757,7 +1683,6 @@ feature.module.esp.setting.image_settings.name=Image Settings
 feature.module.esp.setting.image_settings.description=
 feature.module.esp.setting.image_settings.scale.name=Scale
 feature.module.esp.setting.image_settings.scale.description=
-
 feature.module.elytrafly.name=ElytraFly
 feature.module.elytrafly.description=Fly easier with elytras
 feature.module.elytrafly.setting.mode.name=Mode
@@ -1894,7 +1819,6 @@ feature.module.elytrafly.setting.bounce_settings.autowalk.in_flight.name=In Flig
 feature.module.elytrafly.setting.bounce_settings.autowalk.in_flight.description=Only while in flight
 feature.module.elytrafly.setting.debug.name=Debug
 feature.module.elytrafly.setting.debug.description=
-
 feature.module.elytratweaks.name=ElytraTweaks
 feature.module.elytratweaks.description=Quality of life improvements for elytra flying
 feature.module.elytratweaks.setting.fixrocketdesync.name=FixRocketDesync
@@ -1923,7 +1847,6 @@ feature.module.elytratweaks.setting.grimdisabler.onground.name=OnGround
 feature.module.elytratweaks.setting.grimdisabler.onground.description=
 feature.module.elytratweaks.setting.grimdisabler.inventory.name=Inventory
 feature.module.elytratweaks.setting.grimdisabler.inventory.description=
-
 feature.module.entities.name=Entities
 feature.module.entities.description=Control entity preferences
 feature.module.entities.setting.fakeplayers.name=FakePlayers
@@ -1936,7 +1859,6 @@ feature.module.entities.setting.fakeplayers.radius.name=Radius
 feature.module.entities.setting.fakeplayers.radius.description=
 feature.module.entities.setting.fakeplayers.speed.name=Speed
 feature.module.entities.setting.fakeplayers.speed.description=
-
 feature.module.entitycontrol.name=EntityControl
 feature.module.entitycontrol.description=Ride entities without saddles and modify their speed
 feature.module.entitycontrol.setting.control.name=Control
@@ -1945,7 +1867,6 @@ feature.module.entitycontrol.setting.horsejump.name=HorseJump
 feature.module.entitycontrol.setting.horsejump.description=
 feature.module.entitycontrol.setting.boatfixyaw.name=BoatFixYaw
 feature.module.entitycontrol.setting.boatfixyaw.description=
-
 feature.module.entityspeed.name=EntitySpeed
 feature.module.entityspeed.description=Make entities go faster
 feature.module.entityspeed.setting.speed.name=Speed
@@ -1954,7 +1875,6 @@ feature.module.entityspeed.setting.tpssync.name=TPSSync
 feature.module.entityspeed.setting.tpssync.description=Syncs speed to the server TPS
 feature.module.entityspeed.setting.strict.name=Strict
 feature.module.entityspeed.setting.strict.description=Pause when approaching obstacle
-
 feature.module.environment.name=Environment
 feature.module.environment.description=Modifies the environment
 feature.module.environment.setting.world.name=World
@@ -1979,7 +1899,6 @@ feature.module.environment.setting.cloud.name=Cloud
 feature.module.environment.setting.cloud.description=Changes the color of clouds
 feature.module.environment.setting.cloud.color.name=Color
 feature.module.environment.setting.cloud.color.description=
-
 feature.module.extrachat.name=ExtraChat
 feature.module.extrachat.description=Modify the game chat
 feature.module.extrachat.setting.maxlines.name=MaxLines
@@ -2034,7 +1953,6 @@ feature.module.extrachat.setting.imagepreview.size.name=Size
 feature.module.extrachat.setting.imagepreview.size.description=
 feature.module.extrachat.setting.imagepreview.enlarge.name=Enlarge
 feature.module.extrachat.setting.imagepreview.enlarge.description=
-
 feature.module.extrachest.name=ExtraChest
 feature.module.extrachest.description=Automatically steal/fill items from containers
 feature.module.extrachest.setting.buttons.name=Buttons
@@ -2079,7 +1997,6 @@ feature.module.extrachest.setting.shulkerhighlight.name=ShulkerHighlight
 feature.module.extrachest.setting.shulkerhighlight.description=
 feature.module.extrachest.setting.shulkerhighlight.color.name=Color
 feature.module.extrachest.setting.shulkerhighlight.color.description=
-
 feature.module.extracraft.name=ExtraCraft
 feature.module.extracraft.description=Modifications to crafting
 feature.module.extracraft.setting.autocraft.name=AutoCraft
@@ -2092,14 +2009,12 @@ feature.module.extracraft.setting.inventory.name=Inventory
 feature.module.extracraft.setting.inventory.description=
 feature.module.extracraft.setting.delay.name=Delay
 feature.module.extracraft.setting.delay.description=
-
 feature.module.extrascreenshot.name=ExtraScreenshot
 feature.module.extrascreenshot.description=Upload your screenshots to the web automatically
 feature.module.extrascreenshot.setting.mode.name=Mode
 feature.module.extrascreenshot.setting.mode.description=
 feature.module.extrascreenshot.setting.save.name=Save
 feature.module.extrascreenshot.setting.save.description=
-
 feature.module.extrasign.name=ExtraSign
 feature.module.extrasign.description=Modifications to signs
 feature.module.extrasign.setting.coloredsigns.name=ColoredSigns
@@ -2126,7 +2041,6 @@ feature.module.extrasign.setting.dateappend.format.name=Format
 feature.module.extrasign.setting.dateappend.format.description=
 feature.module.extrasign.setting.strict.name=Strict
 feature.module.extrasign.setting.strict.description=
-
 feature.module.extratab.name=ExtraTab
 feature.module.extratab.description=Modifications to the tablist
 feature.module.extratab.setting.sorting.name=Sorting
@@ -2161,7 +2075,6 @@ feature.module.extratab.setting.colors.enemies.name=Enemies
 feature.module.extratab.setting.colors.enemies.description=
 feature.module.extratab.setting.colors.self.color.name=Color
 feature.module.extratab.setting.colors.self.color.description=
-
 feature.module.extratooltips.name=ExtraTooltips
 feature.module.extratooltips.description=Adds better item tooltips to the game
 feature.module.extratooltips.setting.positioning.name=Positioning
@@ -2206,12 +2119,10 @@ feature.module.extratooltips.setting.nbtdata.name=NBTData
 feature.module.extratooltips.setting.nbtdata.description=
 feature.module.extratooltips.setting.size.name=Size
 feature.module.extratooltips.setting.size.description=
-
 feature.module.fancychat.name=FancyChat
 feature.module.fancychat.description=Makes your text look gamer
 feature.module.fancychat.setting.mode.name=Mode
 feature.module.fancychat.setting.mode.description=
-
 feature.module.fastbreak.name=FastBreak
 feature.module.fastbreak.description=Break blocks faster
 feature.module.fastbreak.setting.mode.name=Mode
@@ -2284,7 +2195,6 @@ feature.module.fastbreak.setting.render.outline.static.name=Static
 feature.module.fastbreak.setting.render.outline.static.description=
 feature.module.fastbreak.setting.debug.name=Debug
 feature.module.fastbreak.setting.debug.description=
-
 feature.module.fastplace.name=FastPlace
 feature.module.fastplace.description=Place blocks faster
 feature.module.fastplace.setting.mode.name=Mode
@@ -2295,7 +2205,6 @@ feature.module.fastplace.setting.blacklist.name=Blacklist
 feature.module.fastplace.setting.blacklist.description=Configure FastPlace Blacklist
 feature.module.fastplace.setting.delay.name=Delay
 feature.module.fastplace.setting.delay.description=Tick delay after placing
-
 feature.module.fastuse.name=FastUse
 feature.module.fastuse.description=Use items faster
 feature.module.fastuse.setting.delay.name=Delay
@@ -2310,7 +2219,6 @@ feature.module.fastuse.setting.exp.throw.name=Throw
 feature.module.fastuse.setting.exp.throw.description=
 feature.module.fastuse.setting.exp.silentthrow.name=SilentThrow
 feature.module.fastuse.setting.exp.silentthrow.description=
-
 feature.module.flight.name=Flight
 feature.module.flight.description=Fly like a bird
 feature.module.flight.setting.mode.name=Mode
@@ -2329,7 +2237,6 @@ feature.module.flight.setting.acceleration.speed.name=Speed
 feature.module.flight.setting.acceleration.speed.description=
 feature.module.flight.setting.acceleration.maxspeed.name=MaxSpeed
 feature.module.flight.setting.acceleration.maxspeed.description=
-
 feature.module.forceplace.name=ForcePlace
 feature.module.forceplace.description=Places a block on blocks where you normally would open a gui by sneaking
 feature.module.forceplace.setting.blocks.name=Blocks
@@ -2338,7 +2245,6 @@ feature.module.forceplace.setting.entities.name=Entities
 feature.module.forceplace.setting.entities.description=Open entity containers
 feature.module.forceplace.setting.fireworks.name=Fireworks
 feature.module.forceplace.setting.fireworks.description=Spawn fireworks on containers
-
 feature.module.freelook.name=FreeLook
 feature.module.freelook.description=Allows you to look around freely without changing your moving direction
 feature.module.freelook.setting.usage.name=Usage
@@ -2349,7 +2255,6 @@ feature.module.freelook.setting.smooth.name=Smooth
 feature.module.freelook.setting.smooth.description=
 feature.module.freelook.setting.onlypitch.name=OnlyPitch
 feature.module.freelook.setting.onlypitch.description=
-
 feature.module.freecam.name=Freecam
 feature.module.freecam.description=Control the camera separately from the player
 feature.module.freecam.setting.speed.name=Speed
@@ -2362,17 +2267,14 @@ feature.module.freecam.setting.control.name=Control
 feature.module.freecam.setting.control.description=Temporarily control the player while this key is held
 feature.module.freecam.setting.debug.name=Debug
 feature.module.freecam.setting.debug.description=
-
 feature.module.fullbright.name=FullBright
 feature.module.fullbright.description=Makes the world bright
 feature.module.fullbright.setting.nightvision.name=NightVision
 feature.module.fullbright.setting.nightvision.description=Uses the night vision potion effect. Useful if using a shader pack
-
 feature.module.gamemode.name=Gamemode
 feature.module.gamemode.description=Change your gamemode client-side
 feature.module.gamemode.setting.gamemode.name=Gamemode
 feature.module.gamemode.setting.gamemode.description=
-
 feature.module.ghosthand.name=GhostHand
 feature.module.ghosthand.description=Allows you to interact with blocks through walls
 feature.module.ghosthand.setting.render.name=Render
@@ -2381,12 +2283,10 @@ feature.module.ghosthand.setting.render.color.name=Color
 feature.module.ghosthand.setting.render.color.description=
 feature.module.ghosthand.setting.render.selectedcolor.name=SelectedColor
 feature.module.ghosthand.setting.render.selectedcolor.description=
-
 feature.module.greentext.name=GreenText
 feature.module.greentext.description=Puts '>' in front of your messages
 feature.module.greentext.setting.space.name=Space
 feature.module.greentext.setting.space.description=
-
 feature.module.greeter.name=Greeter
 feature.module.greeter.description=Send a message when players join or leave the server
 feature.module.greeter.setting.clientside.name=ClientSide
@@ -2399,7 +2299,6 @@ feature.module.greeter.setting.leaves.name=Leaves
 feature.module.greeter.setting.leaves.description=
 feature.module.greeter.setting.delay.name=Delay
 feature.module.greeter.setting.delay.description=
-
 feature.module.hud.name=HUD
 feature.module.hud.description=In-Game Heads up Display
 feature.module.hud.setting.scale.name=Scale
@@ -2448,7 +2347,6 @@ feature.module.hud.setting.notifications.moduletoggle.enablecolor.name=EnableCol
 feature.module.hud.setting.notifications.moduletoggle.enablecolor.description=
 feature.module.hud.setting.notifications.moduletoggle.disablecolor.name=DisableColor
 feature.module.hud.setting.notifications.moduletoggle.disablecolor.description=
-
 feature.module.hitboxignore.name=HitboxIgnore
 feature.module.hitboxignore.description=Ignore entity hitboxes when mining
 feature.module.hitboxignore.setting.pickaxeonly.name=PickaxeOnly
@@ -2473,7 +2371,6 @@ feature.module.hitboxignore.setting.entities.players.onlyfriends.name=OnlyFriend
 feature.module.hitboxignore.setting.entities.players.onlyfriends.description=
 feature.module.hitboxignore.setting.blocks.name=Blocks
 feature.module.hitboxignore.setting.blocks.description=Configure the blocks for HitboxIgnore
-
 feature.module.hitmarkers.name=Hitmarkers
 feature.module.hitmarkers.description=Hitmarkers from Call of Duty
 feature.module.hitmarkers.setting.time.name=Time
@@ -2502,7 +2399,6 @@ feature.module.hitmarkers.setting.targets.others.name=Others
 feature.module.hitmarkers.setting.targets.others.description=
 feature.module.hitmarkers.setting.targets.players.self.name=Self
 feature.module.hitmarkers.setting.targets.players.self.description=
-
 feature.module.holeesp.name=HoleESP
 feature.module.holeesp.description=ESP for crystal-safe holes
 feature.module.holeesp.setting.range.name=Range
@@ -2539,7 +2435,6 @@ feature.module.holeesp.setting.voidesp.range.name=Range
 feature.module.holeesp.setting.voidesp.range.description=
 feature.module.holeesp.setting.voidesp.color.name=Color
 feature.module.holeesp.setting.voidesp.color.description=
-
 feature.module.holefiller.name=HoleFiller
 feature.module.holefiller.description=Automatically places blocks in holes
 feature.module.holefiller.setting.mode.name=Mode
@@ -2578,7 +2473,6 @@ feature.module.holefiller.setting.render.name=Render
 feature.module.holefiller.setting.render.description=
 feature.module.holefiller.setting.render.color.name=Color
 feature.module.holefiller.setting.render.color.description=
-
 feature.module.hotbarreplenish.name=HotbarReplenish
 feature.module.hotbarreplenish.description=Automatically replenishes items in your hotbar
 feature.module.hotbarreplenish.setting.mode.name=Mode
@@ -2597,12 +2491,10 @@ feature.module.hotbarreplenish.setting.threshold.name=Threshold
 feature.module.hotbarreplenish.setting.threshold.description=
 feature.module.hotbarreplenish.setting.delay.name=Delay
 feature.module.hotbarreplenish.setting.delay.description=
-
 feature.module.icespeed.name=IceSpeed
 feature.module.icespeed.description=Go fast on ice
 feature.module.icespeed.setting.speed.name=Speed
 feature.module.icespeed.setting.speed.description=
-
 feature.module.ignite.name=Ignite
 feature.module.ignite.description=Light players up on fire with a flint and steel or fire charge
 feature.module.ignite.setting.reach.name=Reach
@@ -2641,7 +2533,6 @@ feature.module.ignite.setting.targets.players.ignorecreative.name=IgnoreCreative
 feature.module.ignite.setting.targets.players.ignorecreative.description=
 feature.module.ignite.setting.targets.players.prioritizeenemies.enemiesonly.name=EnemiesOnly
 feature.module.ignite.setting.targets.players.prioritizeenemies.enemiesonly.description=
-
 feature.module.inventorycleaner.name=InventoryCleaner
 feature.module.inventorycleaner.description=Cleans your inventory of items you specify
 feature.module.inventorycleaner.setting.mode.name=Mode
@@ -2662,7 +2553,6 @@ feature.module.inventorycleaner.setting.screens.craftingtable.name=CraftingTable
 feature.module.inventorycleaner.setting.screens.craftingtable.description=Run while in a crafting table
 feature.module.inventorycleaner.setting.screens.containers.name=Containers
 feature.module.inventorycleaner.setting.screens.containers.description=Run while inside containers
-
 feature.module.inventorymove.name=InventoryMove
 feature.module.inventorymove.description=Move and look around while in an inventory screen
 feature.module.inventorymove.setting.mode.name=Mode
@@ -2685,12 +2575,10 @@ feature.module.inventorymove.setting.screens.escapemenu.name=EscapeMenu
 feature.module.inventorymove.setting.screens.escapemenu.description=
 feature.module.inventorymove.setting.screens.others.name=Others
 feature.module.inventorymove.setting.screens.others.description=
-
 feature.module.jesus.name=Jesus
 feature.module.jesus.description=Allows you to walk on water
 feature.module.jesus.setting.mode.name=Mode
 feature.module.jesus.setting.mode.description=
-
 feature.module.lagdetector.name=LagDetector
 feature.module.lagdetector.description=Prints a message in chat/on screen when the server is lagging
 feature.module.lagdetector.setting.delay.name=Delay
@@ -2703,27 +2591,22 @@ feature.module.lagdetector.setting.notification.name=Notification
 feature.module.lagdetector.setting.notification.description=
 feature.module.lagdetector.setting.clientside.name=Clientside
 feature.module.lagdetector.setting.clientside.description=
-
 feature.module.lagreducer.name=LagReducer
 feature.module.lagreducer.description=Limits your FPS when you are not tabbed into the game
 feature.module.lagreducer.setting.fpscap.name=FpsCap
 feature.module.lagreducer.setting.fpscap.description=
-
 feature.module.lagger.name=Lagger
 feature.module.lagger.description=Spam servers with packets
 feature.module.lagger.setting.mode.name=Mode
 feature.module.lagger.setting.mode.description=
 feature.module.lagger.setting.packets.name=Packets
 feature.module.lagger.setting.packets.description=
-
 feature.module.language.name=Language
 feature.module.language.description=Configure the language of RusherHack's interface
 feature.module.language.setting.language.name=Language
 feature.module.language.setting.language.description=
-
 feature.module.liquidinteract.name=LiquidInteract
 feature.module.liquidinteract.description=Place blocks on top of water
-
 feature.module.logoutspots.name=LogoutSpots
 feature.module.logoutspots.description=Highlights where players have logged out
 feature.module.logoutspots.setting.mode.name=Mode
@@ -2752,7 +2635,6 @@ feature.module.logoutspots.setting.render.text.customfont.name=CustomFont
 feature.module.logoutspots.setting.render.text.customfont.description=
 feature.module.logoutspots.setting.render.text.color.name=Color
 feature.module.logoutspots.setting.render.text.color.description=
-
 feature.module.mainmenu.name=MainMenu
 feature.module.mainmenu.description=Customizations to the game's main menu
 feature.module.mainmenu.setting.shader.name=Shader
@@ -2765,7 +2647,6 @@ feature.module.mainmenu.setting.altmanager.name=AltManager
 feature.module.mainmenu.setting.altmanager.description=
 feature.module.mainmenu.setting.realmsbutton.name=RealmsButton
 feature.module.mainmenu.setting.realmsbutton.description=
-
 feature.module.middleclick.name=MiddleClick
 feature.module.middleclick.description=Actions for middle clicking
 feature.module.middleclick.setting.friend.name=Friend
@@ -2784,15 +2665,12 @@ feature.module.middleclick.setting.blocknbt.name=BlockNBT
 feature.module.middleclick.setting.blocknbt.description=Prints block data to chat
 feature.module.middleclick.setting.blockhitdebug.name=BlockHitDebug
 feature.module.middleclick.setting.blockhitdebug.description=
-
 feature.module.mobowner.name=MobOwner
 feature.module.mobowner.description=Tells you the identity of who tamed a mob
 feature.module.mobowner.setting.pearls.name=Pearls
 feature.module.mobowner.setting.pearls.description=
-
 feature.module.multitask.name=MultiTask
 feature.module.multitask.description=Allows you to interact while eating
-
 feature.module.nametags.name=Nametags
 feature.module.nametags.description=Renders nametags above entities
 feature.module.nametags.setting.nameplate.name=Nameplate
@@ -2887,7 +2765,6 @@ feature.module.nametags.setting.targets.armorstands.name=ArmorStands
 feature.module.nametags.setting.targets.armorstands.description=
 feature.module.nametags.setting.targets.players.self.name=Self
 feature.module.nametags.setting.targets.players.self.description=
-
 feature.module.newchunks.name=NewChunks
 feature.module.newchunks.description=Highlights new chunks
 feature.module.newchunks.setting.mode.name=Mode
@@ -2926,32 +2803,26 @@ feature.module.newchunks.setting.render_settings.colors.end.name=End
 feature.module.newchunks.setting.render_settings.colors.end.description=
 feature.module.newchunks.setting.render_settings.outline.width.name=Width
 feature.module.newchunks.setting.render_settings.outline.width.description=
-
 feature.module.nofall.name=NoFall
 feature.module.nofall.description=Stops fall damage on some servers
 feature.module.nofall.setting.mode.name=Mode
 feature.module.nofall.setting.mode.description=
 feature.module.nofall.setting.distance.name=Distance
 feature.module.nofall.setting.distance.description=
-
 feature.module.noforcerotate.name=NoForceRotate
 feature.module.noforcerotate.description=Prevents the server from rotating you
-
 feature.module.noglitchblocks.name=NoGlitchBlocks
 feature.module.noglitchblocks.description=Prevents client-side ghost blocks
 feature.module.noglitchblocks.setting.place.name=Place
 feature.module.noglitchblocks.setting.place.description=
 feature.module.noglitchblocks.setting.break.name=Break
 feature.module.noglitchblocks.setting.break.description=
-
 feature.module.nojumpdelay.name=NoJumpDelay
 feature.module.nojumpdelay.description=Removes the vanilla jump delay when holding jump button
 feature.module.nojumpdelay.setting.delay.name=Delay
 feature.module.nojumpdelay.setting.delay.description=
-
 feature.module.nomineanimation.name=NoMineAnimation
 feature.module.nomineanimation.description=Hides your block mining progress for other players
-
 feature.module.norender.name=NoRender
 feature.module.norender.description=Prevents rendering of certain things
 feature.module.norender.setting.player.name=Player
@@ -3044,7 +2915,6 @@ feature.module.norender.setting.particles.totempops.name=TotemPops
 feature.module.norender.setting.particles.totempops.description=
 feature.module.norender.setting.particles.sprinting.name=Sprinting
 feature.module.norender.setting.particles.sprinting.description=
-
 feature.module.noslow.name=NoSlow
 feature.module.noslow.description=Removes item slow down
 feature.module.noslow.setting.mode.name=Mode
@@ -3063,7 +2933,6 @@ feature.module.noslow.setting.blocks.slimeblocks.name=SlimeBlocks
 feature.module.noslow.setting.blocks.slimeblocks.description=
 feature.module.noslow.setting.sneak.name=Sneak
 feature.module.noslow.setting.sneak.description=
-
 feature.module.notifier.name=Notifier
 feature.module.notifier.description=Get toast notifications on your computer
 feature.module.notifier.setting.ingame.name=InGame
@@ -3088,7 +2957,6 @@ feature.module.notifier.setting.focusedcheck.name=FocusedCheck
 feature.module.notifier.setting.focusedcheck.description=
 feature.module.notifier.setting.servermessages.name=ServerMessages
 feature.module.notifier.setting.servermessages.description=
-
 feature.module.nuker.name=Nuker
 feature.module.nuker.description=Destroy blocks around you
 feature.module.nuker.setting.mode.name=Mode
@@ -3119,7 +2987,6 @@ feature.module.nuker.setting.render.name=Render
 feature.module.nuker.setting.render.description=
 feature.module.nuker.setting.render.color.name=Color
 feature.module.nuker.setting.render.color.description=
-
 feature.module.packetlogger.name=PacketLogger
 feature.module.packetlogger.description=Logs incoming and outgoing packets
 feature.module.packetlogger.setting.verbose.name=Verbose
@@ -3132,14 +2999,12 @@ feature.module.packetlogger.setting.clientbound.name=Clientbound
 feature.module.packetlogger.setting.clientbound.description=
 feature.module.packetlogger.setting.serverbound.name=Serverbound
 feature.module.packetlogger.setting.serverbound.description=
-
 feature.module.parkour.name=Parkour
 feature.module.parkour.description=Jumps when on the edge of blocks
 feature.module.parkour.setting.onlysprinting.name=OnlySprinting
 feature.module.parkour.setting.onlysprinting.description=Only jump when sprinting
 feature.module.parkour.setting.slabs.name=Slabs
 feature.module.parkour.setting.slabs.description=Jump from slabs
-
 feature.module.phase.name=Phase
 feature.module.phase.description=Phase through blocks
 feature.module.phase.setting.mode.name=Mode
@@ -3148,7 +3013,6 @@ feature.module.phase.setting.speed.name=Speed
 feature.module.phase.setting.speed.description=
 feature.module.phase.setting.throw.name=Throw
 feature.module.phase.setting.throw.description=Key to throw the pearl
-
 feature.module.pingspoof.name=PingSpoof
 feature.module.pingspoof.description=Spoof your ping
 feature.module.pingspoof.setting.mode.name=Mode
@@ -3157,13 +3021,10 @@ feature.module.pingspoof.setting.delaymode.name=DelayMode
 feature.module.pingspoof.setting.delaymode.description=
 feature.module.pingspoof.setting.delay.name=Delay
 feature.module.pingspoof.setting.delay.description=
-
 feature.module.portalgodmode.name=PortalGodMode
 feature.module.portalgodmode.description=Go into god mode when you enter a portal
-
 feature.module.portalgui.name=PortalGui
 feature.module.portalgui.description=Allows you to open guis like chat while in a portal
-
 feature.module.pvpinfo.name=PvpInfo
 feature.module.pvpinfo.description=Sends you messages with info relating to pvp
 feature.module.pvpinfo.setting.potions.name=Potions
@@ -3190,7 +3051,6 @@ feature.module.pvpinfo.setting.selfpops.name=SelfPops
 feature.module.pvpinfo.setting.selfpops.description=
 feature.module.pvpinfo.setting.32k_detect.name=32k Detect
 feature.module.pvpinfo.setting.32k_detect.description=
-
 feature.module.quiver.name=Quiver
 feature.module.quiver.description=Shoots yourself with positive potion effects
 feature.module.quiver.setting.self.name=Self
@@ -3205,14 +3065,12 @@ feature.module.quiver.setting.self.macro.name=Macro
 feature.module.quiver.setting.self.macro.description=
 feature.module.quiver.setting.others.name=Others
 feature.module.quiver.setting.others.description=
-
 feature.module.rainbowenchant.name=RainbowEnchant
 feature.module.rainbowenchant.description=Makes the enchant glint rainbow
 feature.module.rainbowenchant.setting.color.name=Color
 feature.module.rainbowenchant.setting.color.description=
 feature.module.rainbowenchant.setting.strong.name=Strong
 feature.module.rainbowenchant.setting.strong.description=
-
 feature.module.rangecircle.name=RangeCircle
 feature.module.rangecircle.description=Draws a circle at your feet indicating your hit range
 feature.module.rangecircle.setting.radius.name=Radius
@@ -3229,7 +3087,6 @@ feature.module.rangecircle.setting.color.name=Color
 feature.module.rangecircle.setting.color.description=
 feature.module.rangecircle.setting.rainbowmode.name=RainbowMode
 feature.module.rangecircle.setting.rainbowmode.description=
-
 feature.module.reach.name=Reach
 feature.module.reach.description=Extends your interaction distance
 feature.module.reach.setting.mode.name=Mode
@@ -3238,7 +3095,6 @@ feature.module.reach.setting.entityreach.name=EntityReach
 feature.module.reach.setting.entityreach.description=
 feature.module.reach.setting.blockreach.name=BlockReach
 feature.module.reach.setting.blockreach.description=
-
 feature.module.richpresence.name=RichPresence
 feature.module.richpresence.description=Adds Discord Rich Presence
 feature.module.richpresence.setting.mode.name=Mode
@@ -3281,7 +3137,6 @@ feature.module.richpresence.setting.advanced.in_game.details.name=Details
 feature.module.richpresence.setting.advanced.in_game.details.description=
 feature.module.richpresence.setting.advanced.in_game.state.name=State
 feature.module.richpresence.setting.advanced.in_game.state.description=
-
 feature.module.rotationlock.name=RotationLock
 feature.module.rotationlock.description=Lock your yaw and pitch
 feature.module.rotationlock.setting.yaw.name=Yaw
@@ -3306,12 +3161,10 @@ feature.module.rotationlock.setting.waypointlock.name.name=Name
 feature.module.rotationlock.setting.waypointlock.name.description=
 feature.module.rotationlock.setting.hard.name=Hard
 feature.module.rotationlock.setting.hard.description=
-
 feature.module.rotations.name=Rotations
 feature.module.rotations.description=Control global rotation settings
 feature.module.rotations.setting.movefix.name=MoveFix
 feature.module.rotations.setting.movefix.description=Fix rotations on strict servers like 2b2t
-
 feature.module.rushercrypt.name=RusherCrypt
 feature.module.rushercrypt.description=Encrypt and Decrypt chat messages that users with Decrypt online can see
 feature.module.rushercrypt.setting.encrypt.name=Encrypt
@@ -3320,7 +3173,6 @@ feature.module.rushercrypt.setting.decrypt.name=Decrypt
 feature.module.rushercrypt.setting.decrypt.description=
 feature.module.rushercrypt.setting.chatobfuscation.name=ChatObfuscation
 feature.module.rushercrypt.setting.chatobfuscation.description=
-
 feature.module.safewalk.name=Safewalk
 feature.module.safewalk.description=Prevents you from walking off the edge of blocks
 feature.module.safewalk.setting.slabs.name=Slabs
@@ -3331,7 +3183,6 @@ feature.module.safewalk.setting.sneak.name=Sneak
 feature.module.safewalk.setting.sneak.description=
 feature.module.safewalk.setting.sneak.strict.name=Strict
 feature.module.safewalk.setting.sneak.strict.description=
-
 feature.module.scaffold.name=Scaffold
 feature.module.scaffold.description=Automatically bridges and towers with blocks
 feature.module.scaffold.setting.blocks.name=Blocks
@@ -3390,7 +3241,6 @@ feature.module.scaffold.setting.render.width.name=Width
 feature.module.scaffold.setting.render.width.description=Width of outline
 feature.module.scaffold.setting.render.depthtest.name=DepthTest
 feature.module.scaffold.setting.render.depthtest.description=Hide hidden sides
-
 feature.module.search.name=Search
 feature.module.search.description=Search for specific blocks and entities
 feature.module.search.setting.blocks.name=Blocks
@@ -3443,7 +3293,6 @@ feature.module.search.setting.render_settings.box.outline.width.name=Width
 feature.module.search.setting.render_settings.box.outline.width.description=
 feature.module.search.setting.debug.name=Debug
 feature.module.search.setting.debug.description=
-
 feature.module.selfblock.name=SelfBlock
 feature.module.selfblock.description=Glitches you inside of a block
 feature.module.selfblock.setting.insidecheck.name=InsideCheck
@@ -3460,10 +3309,8 @@ feature.module.selfblock.setting.only.enderchests.name=EnderChests
 feature.module.selfblock.setting.only.enderchests.description=
 feature.module.selfblock.setting.only.skulls.name=Skulls
 feature.module.selfblock.setting.only.skulls.description=
-
 feature.module.shulkerception.name=ShulkerCeption
 feature.module.shulkerception.description=Allows you to place shulkers inside of other shulkers in singleplayer
-
 feature.module.skinblink.name=SkinBlink
 feature.module.skinblink.description=Flash skin layers on and off
 feature.module.skinblink.setting.mode.name=Mode
@@ -3486,7 +3333,6 @@ feature.module.skinblink.setting.layers.right_pants_leg.name=Right Pants Leg
 feature.module.skinblink.setting.layers.right_pants_leg.description=
 feature.module.skinblink.setting.layers.hat.name=Hat
 feature.module.skinblink.setting.layers.hat.description=
-
 feature.module.sourceremover.name=SourceRemover
 feature.module.sourceremover.description=Fills water and lava sources with blocks
 feature.module.sourceremover.setting.priority.name=Priority
@@ -3515,7 +3361,6 @@ feature.module.sourceremover.setting.render.name=Render
 feature.module.sourceremover.setting.render.description=
 feature.module.sourceremover.setting.render.color.name=Color
 feature.module.sourceremover.setting.render.color.description=
-
 feature.module.spammer.name=Spammer
 feature.module.spammer.description=Spams chat
 feature.module.spammer.setting.file.name=File
@@ -3530,7 +3375,6 @@ feature.module.spammer.setting.delay.name=Delay
 feature.module.spammer.setting.delay.description=
 feature.module.spammer.setting.randomdelay.name=RandomDelay
 feature.module.spammer.setting.randomdelay.description=
-
 feature.module.speed.name=Speed
 feature.module.speed.description=Speeds up the player
 feature.module.speed.setting.mode.name=Mode
@@ -3547,7 +3391,6 @@ feature.module.speed.setting.autosprint.name=AutoSprint
 feature.module.speed.setting.autosprint.description=
 feature.module.speed.setting.water.name=Water
 feature.module.speed.setting.water.description=
-
 feature.module.sprint.name=Sprint
 feature.module.sprint.description=Automatically sprint
 feature.module.sprint.setting.water.name=Water
@@ -3558,7 +3401,6 @@ feature.module.sprint.setting.omnidirectional.name=Omnidirectional
 feature.module.sprint.setting.omnidirectional.description=Lets you sprint in all directions
 feature.module.sprint.setting.omnidirectional.strict.name=Strict
 feature.module.sprint.setting.omnidirectional.strict.description=Bypass stricter anticheats
-
 feature.module.step.name=Step
 feature.module.step.description=Quickly step on blocks
 feature.module.step.setting.upwards.name=Upwards
@@ -3581,7 +3423,6 @@ feature.module.step.setting.reverse.height.name=Height
 feature.module.step.setting.reverse.height.description=
 feature.module.step.setting.reverse.speed.name=Speed
 feature.module.step.setting.reverse.speed.description=
-
 feature.module.swing.name=Swing
 feature.module.swing.description=Modify swinging
 feature.module.swing.setting.speed.name=Speed
@@ -3594,7 +3435,6 @@ feature.module.swing.setting.noswing.strict.name=Strict
 feature.module.swing.setting.noswing.strict.description=
 feature.module.swing.setting.offhand.name=Offhand
 feature.module.swing.setting.offhand.description=
-
 feature.module.theme.name=Theme
 feature.module.theme.description=Control the look and feel of RusherHack
 feature.module.theme.setting.clickgui.name=ClickGui
@@ -3653,7 +3493,6 @@ feature.module.theme.setting.classic.blur.screen.name=Screen
 feature.module.theme.setting.classic.blur.screen.description=
 feature.module.theme.setting.classic.blur.strength.name=Strength
 feature.module.theme.setting.classic.blur.strength.description=
-
 feature.module.tickshift.name=TickShift
 feature.module.tickshift.description=Queue up movements while standing still
 feature.module.tickshift.setting.mode.name=Mode
@@ -3664,14 +3503,12 @@ feature.module.tickshift.setting.autodisable.name=AutoDisable
 feature.module.tickshift.setting.autodisable.description=
 feature.module.tickshift.setting.2b2t.name=2b2t
 feature.module.tickshift.setting.2b2t.description=
-
 feature.module.timer.name=Timer
 feature.module.timer.description=Speeds up the game
 feature.module.timer.setting.speed.name=Speed
 feature.module.timer.setting.speed.description=
 feature.module.timer.setting.tps_sync.name=TPS Sync
 feature.module.timer.setting.tps_sync.description=
-
 feature.module.timestamps.name=Timestamps
 feature.module.timestamps.description=Adds time stamps to chat messages
 feature.module.timestamps.setting.time_color.name=Time Color
@@ -3694,7 +3531,6 @@ feature.module.timestamps.setting.punctuation_color.name=Punctuation Color
 feature.module.timestamps.setting.punctuation_color.description=
 feature.module.timestamps.setting.space.name=Space
 feature.module.timestamps.setting.space.description=
-
 feature.module.tracers.name=Tracers
 feature.module.tracers.description=Draws lines to entities
 feature.module.tracers.setting.colormode.name=ColorMode
@@ -3729,7 +3565,6 @@ feature.module.tracers.setting.thickness.name=Thickness
 feature.module.tracers.setting.thickness.description=
 feature.module.tracers.setting.target.name=Target
 feature.module.tracers.setting.target.description=
-
 feature.module.trajectories.name=Trajectories
 feature.module.trajectories.description=Draws a line to where projectiles will land.
 feature.module.trajectories.setting.prediction.name=Prediction
@@ -3762,7 +3597,6 @@ feature.module.trajectories.setting.width.name=Width
 feature.module.trajectories.setting.width.description=
 feature.module.trajectories.setting.color.name=Color
 feature.module.trajectories.setting.color.description=
-
 feature.module.translate.name=Translate
 feature.module.translate.description=Translates messages in chat
 feature.module.translate.setting.my_language.name=My Language
@@ -3787,7 +3621,6 @@ feature.module.translate.setting.libretranslate.url.name=URL
 feature.module.translate.setting.libretranslate.url.description=The server URL
 feature.module.translate.setting.libretranslate.token.name=Token
 feature.module.translate.setting.libretranslate.token.description=API key for the server
-
 feature.module.tridenttweaks.name=TridentTweaks
 feature.module.tridenttweaks.description=Tweak the way that Tridents work
 feature.module.tridenttweaks.setting.anywhere.name=Anywhere
@@ -3812,7 +3645,6 @@ feature.module.tridenttweaks.setting.grimdisabler.inventory.name=Inventory
 feature.module.tridenttweaks.setting.grimdisabler.inventory.description=
 feature.module.tridenttweaks.setting.grimdisabler.test.name=Test
 feature.module.tridenttweaks.setting.grimdisabler.test.description=
-
 feature.module.triggerbot.name=TriggerBot
 feature.module.triggerbot.description=Automatically attack entities that are on your crosshair
 feature.module.triggerbot.setting.weaponcheck.name=WeaponCheck
@@ -3843,7 +3675,6 @@ feature.module.triggerbot.setting.targets.players.prioritizeenemies.enemiesonly.
 feature.module.triggerbot.setting.targets.players.prioritizeenemies.enemiesonly.description=
 feature.module.triggerbot.setting.targets.passives.ignoretamed.name=IgnoreTamed
 feature.module.triggerbot.setting.targets.passives.ignoretamed.description=
-
 feature.module.velocity.name=Velocity
 feature.module.velocity.description=Reduces knockback velocity
 feature.module.velocity.setting.pushing.name=Pushing
@@ -3868,12 +3699,10 @@ feature.module.velocity.setting.debug.name=Debug
 feature.module.velocity.setting.debug.description=
 feature.module.velocity.setting.grimmotiontest.name=GrimMotionTest
 feature.module.velocity.setting.grimmotiontest.description=
-
 feature.module.viewclip.name=ViewClip
 feature.module.viewclip.description=Ignores block collision for the camera in third person
 feature.module.viewclip.setting.distance.name=Distance
 feature.module.viewclip.setting.distance.description=
-
 feature.module.viewmodel.name=ViewModel
 feature.module.viewmodel.description=Modify your viewmodel
 feature.module.viewmodel.setting.shader.name=Shader
@@ -3958,7 +3787,6 @@ feature.module.viewmodel.setting.right.offset.y.name=Y
 feature.module.viewmodel.setting.right.offset.y.description=
 feature.module.viewmodel.setting.right.offset.z.name=Z
 feature.module.viewmodel.setting.right.offset.z.description=
-
 feature.module.waterspeed.name=WaterSpeed
 feature.module.waterspeed.description=Go faster in water
 feature.module.waterspeed.setting.lava.name=Lava
@@ -3975,7 +3803,6 @@ feature.module.waterspeed.setting.vertical.downwardsmult.name=DownwardsMult
 feature.module.waterspeed.setting.vertical.downwardsmult.description=
 feature.module.waterspeed.setting.lavamultiplier.name=LavaMultiplier
 feature.module.waterspeed.setting.lavamultiplier.description=
-
 feature.module.waypoints.name=Waypoints
 feature.module.waypoints.description=Save points in the world and view them
 feature.module.waypoints.setting.mode.name=Mode
@@ -4000,10 +3827,8 @@ feature.module.waypoints.setting.autodisconnect.range.name=Range
 feature.module.waypoints.setting.autodisconnect.range.description=
 feature.module.waypoints.setting.color.name=Color
 feature.module.waypoints.setting.color.description=
-
 feature.module.windows.name=Windows
 feature.module.windows.description=Opens the rusherhack window manager
-
 feature.module.xcarry.name=XCarry
 feature.module.xcarry.description=Hold items in your crafting table slots
 feature.module.xcarry.setting.cancel.name=Cancel
@@ -4012,12 +3837,10 @@ feature.module.xcarry.setting.shiftclick.name=ShiftClick
 feature.module.xcarry.setting.shiftclick.description=
 feature.module.xcarry.setting.armorslots.name=ArmorSlots
 feature.module.xcarry.setting.armorslots.description=
-
 feature.module.xray.name=Xray
 feature.module.xray.description=See ores through blocks
 feature.module.xray.setting.blocks.name=Blocks
 feature.module.xray.setting.blocks.description=Modify the Xray Blocks
-
 feature.module.zoom.name=Zoom
 feature.module.zoom.description=Zooms in
 feature.module.zoom.setting.usage.name=Usage
@@ -4032,11 +3855,6 @@ feature.module.zoom.setting.scroll.name=Scroll
 feature.module.zoom.setting.scroll.description=
 feature.module.zoom.setting.cinematic.name=Cinematic
 feature.module.zoom.setting.cinematic.description=
-
-
-
-
-# hud elements
 feature.hud_element.spotify.name=Spotify
 feature.hud_element.spotify.description=
 feature.hud_element.spotify.setting.scale.name=Scale
@@ -4061,7 +3879,6 @@ feature.hud_element.spotify.setting.binds.back_5.name=Back 5
 feature.hud_element.spotify.setting.binds.back_5.description=
 feature.hud_element.spotify.setting.binds.next_5.name=Next 5
 feature.hud_element.spotify.setting.binds.next_5.description=
-
 feature.hud_element.name.name=Name
 feature.hud_element.name.description=Show the player name
 feature.hud_element.name.setting.color.name=Color
@@ -4076,7 +3893,6 @@ feature.hud_element.name.setting.detect_proxy.name=Detect Proxy
 feature.hud_element.name.setting.detect_proxy.description=Show the name of the proxy account
 feature.hud_element.name.setting.detect_proxy.show_both.name=Show both
 feature.hud_element.name.setting.detect_proxy.show_both.description=
-
 feature.hud_element.profile.name=Profile
 feature.hud_element.profile.description=Selected config profile
 feature.hud_element.profile.setting.color.name=Color
@@ -4087,7 +3903,6 @@ feature.hud_element.profile.setting.label.color.name=Color
 feature.hud_element.profile.setting.label.color.description=
 feature.hud_element.profile.setting.label.colon.name=Colon
 feature.hud_element.profile.setting.label.colon.description=
-
 feature.hud_element.keystrokes.name=Keystrokes
 feature.hud_element.keystrokes.description=Shows what movement keys are being pressed
 feature.hud_element.keystrokes.setting.scale.name=Scale
@@ -4098,7 +3913,6 @@ feature.hud_element.keystrokes.setting.mousebuttons.name=MouseButtons
 feature.hud_element.keystrokes.setting.mousebuttons.description=
 feature.hud_element.keystrokes.setting.spacebutton.name=SpaceButton
 feature.hud_element.keystrokes.setting.spacebutton.description=
-
 feature.hud_element.position.name=Position
 feature.hud_element.position.description=The player's current coordinates
 feature.hud_element.position.setting.color.name=Color
@@ -4119,7 +3933,6 @@ feature.hud_element.position.setting.comma.name=Comma
 feature.hud_element.position.setting.comma.description=
 feature.hud_element.position.setting.decimals.name=Decimals
 feature.hud_element.position.setting.decimals.description=
-
 feature.hud_element.potioneffects.name=PotionEffects
 feature.hud_element.potioneffects.description=Lists the potion effects currently applied to the player
 feature.hud_element.potioneffects.setting.color.name=Color
@@ -4138,7 +3951,6 @@ feature.hud_element.potioneffects.setting.duration.parentheses.name=Parentheses
 feature.hud_element.potioneffects.setting.duration.parentheses.description=
 feature.hud_element.potioneffects.setting.duration.color.name=Color
 feature.hud_element.potioneffects.setting.duration.color.description=
-
 feature.hud_element.biome.name=Biome
 feature.hud_element.biome.description=The biome the player is currently in
 feature.hud_element.biome.setting.color.name=Color
@@ -4149,14 +3961,12 @@ feature.hud_element.biome.setting.label.color.name=Color
 feature.hud_element.biome.setting.label.color.description=
 feature.hud_element.biome.setting.label.colon.name=Colon
 feature.hud_element.biome.setting.label.colon.description=
-
 feature.hud_element.onlinetime.name=OnlineTime
 feature.hud_element.onlinetime.description=The time the player has been logged into the server in this session. Useful for determining how much time you have left online before 2b2t kicks you
 feature.hud_element.onlinetime.setting.color.name=Color
 feature.hud_element.onlinetime.setting.color.description=
 feature.hud_element.onlinetime.setting.format.name=Format
 feature.hud_element.onlinetime.setting.format.description=
-
 feature.hud_element.playercount.name=PlayerCount
 feature.hud_element.playercount.description=Counts the number of players online
 feature.hud_element.playercount.setting.color.name=Color
@@ -4167,7 +3977,6 @@ feature.hud_element.playercount.setting.label.color.name=Color
 feature.hud_element.playercount.setting.label.color.description=
 feature.hud_element.playercount.setting.label.colon.name=Colon
 feature.hud_element.playercount.setting.label.colon.description=
-
 feature.hud_element.serverbrand.name=ServerBrand
 feature.hud_element.serverbrand.description=
 feature.hud_element.serverbrand.setting.color.name=Color
@@ -4178,7 +3987,6 @@ feature.hud_element.serverbrand.setting.label.color.name=Color
 feature.hud_element.serverbrand.setting.label.color.description=
 feature.hud_element.serverbrand.setting.label.colon.name=Colon
 feature.hud_element.serverbrand.setting.label.colon.description=
-
 feature.hud_element.weather.name=Weather
 feature.hud_element.weather.description=
 feature.hud_element.weather.setting.color.name=Color
@@ -4189,7 +3997,6 @@ feature.hud_element.weather.setting.label.color.name=Color
 feature.hud_element.weather.setting.label.color.description=
 feature.hud_element.weather.setting.label.colon.name=Colon
 feature.hud_element.weather.setting.label.colon.description=
-
 feature.hud_element.dubcounter.name=DubCounter
 feature.hud_element.dubcounter.description=Counts the number of chests in the render distance
 feature.hud_element.dubcounter.setting.color.name=Color
@@ -4206,7 +4013,6 @@ feature.hud_element.dubcounter.setting.singles.name=Singles
 feature.hud_element.dubcounter.setting.singles.description=
 feature.hud_element.dubcounter.setting.shulkers.name=Shulkers
 feature.hud_element.dubcounter.setting.shulkers.description=
-
 feature.hud_element.bindlist.name=BindList
 feature.hud_element.bindlist.description=Lists all of the registered keybinds
 feature.hud_element.bindlist.setting.color.name=Color
@@ -4225,7 +4031,6 @@ feature.hud_element.bindlist.setting.showhidden.name=ShowHidden
 feature.hud_element.bindlist.setting.showhidden.description=
 feature.hud_element.bindlist.setting.filter.name=Filter
 feature.hud_element.bindlist.setting.filter.description=
-
 feature.hud_element.direction.name=Direction
 feature.hud_element.direction.description=The direction the player is looking
 feature.hud_element.direction.setting.color.name=Color
@@ -4244,7 +4049,6 @@ feature.hud_element.direction.setting.pitch.name=Pitch
 feature.hud_element.direction.setting.pitch.description=
 feature.hud_element.direction.setting.facing.name=Facing
 feature.hud_element.direction.setting.facing.description=
-
 feature.hud_element.armor.name=Armor
 feature.hud_element.armor.description=The armor that the player is currently wearing
 feature.hud_element.armor.setting.scale.name=Scale
@@ -4257,7 +4061,6 @@ feature.hud_element.armor.setting.hotbarlock.name=HotbarLock
 feature.hud_element.armor.setting.hotbarlock.description=
 feature.hud_element.armor.setting.hotbarlock.autoadjust.name=AutoAdjust
 feature.hud_element.armor.setting.hotbarlock.autoadjust.description=
-
 feature.hud_element.ip.name=IP
 feature.hud_element.ip.description=The IP address of the server
 feature.hud_element.ip.setting.color.name=Color
@@ -4270,7 +4073,6 @@ feature.hud_element.ip.setting.label.colon.name=Colon
 feature.hud_element.ip.setting.label.colon.description=
 feature.hud_element.ip.setting.port.name=Port
 feature.hud_element.ip.setting.port.description=
-
 feature.hud_element.memory.name=Memory
 feature.hud_element.memory.description=Current memory usage of the game
 feature.hud_element.memory.setting.color.name=Color
@@ -4281,7 +4083,6 @@ feature.hud_element.memory.setting.label.color.name=Color
 feature.hud_element.memory.setting.label.color.description=
 feature.hud_element.memory.setting.label.colon.name=Colon
 feature.hud_element.memory.setting.label.colon.description=
-
 feature.hud_element.macrolist.name=MacroList
 feature.hud_element.macrolist.description=Lists all of your macros and their keybinds
 feature.hud_element.macrolist.setting.color.name=Color
@@ -4294,7 +4095,6 @@ feature.hud_element.macrolist.setting.sorting.name=Sorting
 feature.hud_element.macrolist.setting.sorting.description=
 feature.hud_element.macrolist.setting.commands.name=Commands
 feature.hud_element.macrolist.setting.commands.description=
-
 feature.hud_element.hunger.name=Hunger
 feature.hud_element.hunger.description=The player's current hunger and saturation levels
 feature.hud_element.hunger.setting.color.name=Color
@@ -4309,14 +4109,12 @@ feature.hud_element.hunger.setting.colon.name=Colon
 feature.hud_element.hunger.setting.colon.description=
 feature.hud_element.hunger.setting.saturation.name=Saturation
 feature.hud_element.hunger.setting.saturation.description=
-
 feature.hud_element.playerview.name=PlayerView
 feature.hud_element.playerview.description=A smaller version of the player
 feature.hud_element.playerview.setting.scale.name=Scale
 feature.hud_element.playerview.setting.scale.description=Size of this hud element
 feature.hud_element.playerview.setting.forward.name=Forward
 feature.hud_element.playerview.setting.forward.description=
-
 feature.hud_element.featurelist.name=FeatureList
 feature.hud_element.featurelist.description=Lists all of the enabled modules
 feature.hud_element.featurelist.setting.color.name=Color
@@ -4333,7 +4131,6 @@ feature.hud_element.featurelist.setting.metadata.name=Metadata
 feature.hud_element.featurelist.setting.metadata.description=
 feature.hud_element.featurelist.setting.metadatacolor.name=MetadataColor
 feature.hud_element.featurelist.setting.metadatacolor.description=
-
 feature.hud_element.crystalcounter.name=CrystalCounter
 feature.hud_element.crystalcounter.description=The number of crystals the player is breaking per second
 feature.hud_element.crystalcounter.setting.color.name=Color
@@ -4344,7 +4141,6 @@ feature.hud_element.crystalcounter.setting.label.color.name=Color
 feature.hud_element.crystalcounter.setting.label.color.description=
 feature.hud_element.crystalcounter.setting.label.colon.name=Colon
 feature.hud_element.crystalcounter.setting.label.colon.description=
-
 feature.hud_element.durability.name=Durability
 feature.hud_element.durability.description=The durability of the item being held
 feature.hud_element.durability.setting.color.name=Color
@@ -4357,14 +4153,12 @@ feature.hud_element.durability.setting.label.colon.name=Colon
 feature.hud_element.durability.setting.label.colon.description=
 feature.hud_element.durability.setting.percentage.name=Percentage
 feature.hud_element.durability.setting.percentage.description=
-
 feature.hud_element.logo.name=Logo
 feature.hud_element.logo.description=
 feature.hud_element.logo.setting.scale.name=Scale
 feature.hud_element.logo.setting.scale.description=Size of this hud element
 feature.hud_element.logo.setting.image.name=Image
 feature.hud_element.logo.setting.image.description=
-
 feature.hud_element.inventory.name=Inventory
 feature.hud_element.inventory.description=Shows all items in the player's inventory
 feature.hud_element.inventory.setting.scale.name=Scale
@@ -4373,7 +4167,6 @@ feature.hud_element.inventory.setting.texture.name=Texture
 feature.hud_element.inventory.setting.texture.description=
 feature.hud_element.inventory.setting.color.name=Color
 feature.hud_element.inventory.setting.color.description=
-
 feature.hud_element.watermark.name=Watermark
 feature.hud_element.watermark.description=RusherHack's watermark
 feature.hud_element.watermark.setting.color.name=Color
@@ -4382,7 +4175,6 @@ feature.hud_element.watermark.setting.text.name=Text
 feature.hud_element.watermark.setting.text.description=
 feature.hud_element.watermark.setting.show_git_hash.name=Show Git Hash
 feature.hud_element.watermark.setting.show_git_hash.description=
-
 feature.hud_element.fps.name=FPS
 feature.hud_element.fps.description=Frames per second
 feature.hud_element.fps.setting.color.name=Color
@@ -4395,7 +4187,6 @@ feature.hud_element.fps.setting.label.colon.name=Colon
 feature.hud_element.fps.setting.label.colon.description=
 feature.hud_element.fps.setting.quickupdate.name=QuickUpdate
 feature.hud_element.fps.setting.quickupdate.description=Updates the fps counter at a faster rate
-
 feature.hud_element.tps.name=TPS
 feature.hud_element.tps.description=The number of ticks the server is processing per second
 feature.hud_element.tps.setting.color.name=Color
@@ -4410,7 +4201,6 @@ feature.hud_element.tps.setting.mode.name=Mode
 feature.hud_element.tps.setting.mode.description=
 feature.hud_element.tps.setting.clamped.name=Clamped
 feature.hud_element.tps.setting.clamped.description=
-
 feature.hud_element.ping.name=Ping
 feature.hud_element.ping.description=The latency between your game to the server
 feature.hud_element.ping.setting.color.name=Color
@@ -4421,7 +4211,6 @@ feature.hud_element.ping.setting.label.color.name=Color
 feature.hud_element.ping.setting.label.color.description=
 feature.hud_element.ping.setting.label.colon.name=Colon
 feature.hud_element.ping.setting.label.colon.description=
-
 feature.hud_element.time.name=Time
 feature.hud_element.time.description=Shows the time; in-game or IRL
 feature.hud_element.time.setting.color.name=Color
@@ -4442,7 +4231,6 @@ feature.hud_element.time.setting.seconds.name=Seconds
 feature.hud_element.time.setting.seconds.description=
 feature.hud_element.time.setting.am/pm.name=AM/PM
 feature.hud_element.time.setting.am/pm.description=
-
 feature.hud_element.entitylist.name=EntityList
 feature.hud_element.entitylist.description=Lists the entities in the render distance
 feature.hud_element.entitylist.setting.color.name=Color
@@ -4499,7 +4287,6 @@ feature.hud_element.entitylist.setting.metadata.pops.name=Pops
 feature.hud_element.entitylist.setting.metadata.pops.description=
 feature.hud_element.entitylist.setting.metadata.color.name=Color
 feature.hud_element.entitylist.setting.metadata.color.description=
-
 feature.hud_element.queue.name=Queue
 feature.hud_element.queue.description=Tracks the number of players in 2b2t's queue
 feature.hud_element.queue.setting.color.name=Color
@@ -4510,7 +4297,6 @@ feature.hud_element.queue.setting.normal.name=Normal
 feature.hud_element.queue.setting.normal.description=
 feature.hud_element.queue.setting.priority.name=Priority
 feature.hud_element.queue.setting.priority.description=
-
 feature.hud_element.speed.name=Speed
 feature.hud_element.speed.description=The player's current speed
 feature.hud_element.speed.setting.color.name=Color
@@ -4527,25 +4313,16 @@ feature.hud_element.speed.setting.average.name=Average
 feature.hud_element.speed.setting.average.description=
 feature.hud_element.speed.setting.average.time.name=Time
 feature.hud_element.speed.setting.average.time.description=
-
-
-
-
-# windows
 feature.window.alt_manager.name=Alt Manager
 feature.window.alt_manager.description=
 feature.window.alt_manager.setting.autoreauth.name=AutoReauth
 feature.window.alt_manager.setting.autoreauth.description=
-
 feature.window.waypoints.name=Waypoints
 feature.window.waypoints.description=
-
 feature.window.relations.name=Relations
 feature.window.relations.description=
-
 feature.window.configs.name=Configs
 feature.window.configs.description=
-
 feature.window.console.name=Console
 feature.window.console.description=
 feature.window.console.setting.timestamps.name=Timestamps
