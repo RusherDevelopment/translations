@@ -1,4 +1,4 @@
-[categories]
+# categories
 module.category.chat.name=Chat
 module.category.combat.name=Combat
 module.category.miscellaneous.name=Miscellaneous
@@ -11,27 +11,27 @@ module.category.external.name=External
 
 
 
-[panels]
+# panels
 ui.panel.external.name=External
-ui.panel.chat.name=Chat
+ui.panel.client.name=Client
 ui.panel.combat.name=Combat
 ui.panel.world.name=World
-ui.panel.player.name=Player
-ui.panel.movement.name=Movement
-ui.panel.miscellaneous.name=Miscellaneous
 ui.panel.render.name=Render
-ui.panel.client.name=Client
+ui.panel.chat.name=Chat
+ui.panel.miscellaneous.name=Miscellaneous
+ui.panel.movement.name=Movement
+ui.panel.player.name=Player
 
 
 
-[screens]
+# screens
 ui.screen.clickgui.name=ClickGui
 ui.screen.hud_editor.name=Hud Editor
 ui.screen.windows.name=Windows
 
 
 
-[modules]
+# modules
 feature.module.airplace.name=AirPlace
 feature.module.airplace.description=Place blocks in midair
 feature.module.airplace.setting.grim.name=Grim
@@ -2026,6 +2026,14 @@ feature.module.extrachat.setting.nameprotect.name=NameProtect
 feature.module.extrachat.setting.nameprotect.description=Redact your name from game-chat
 feature.module.extrachat.setting.stripblanklines.name=StripBlankLines
 feature.module.extrachat.setting.stripblanklines.description=
+feature.module.extrachat.setting.imagepreview.name=ImagePreview
+feature.module.extrachat.setting.imagepreview.description=Preview images posted in chat
+feature.module.extrachat.setting.imagepreview.confirm.name=Confirm
+feature.module.extrachat.setting.imagepreview.confirm.description=Confirm that this setting can expose your IP address
+feature.module.extrachat.setting.imagepreview.size.name=Size
+feature.module.extrachat.setting.imagepreview.size.description=
+feature.module.extrachat.setting.imagepreview.enlarge.name=Enlarge
+feature.module.extrachat.setting.imagepreview.enlarge.description=
 
 feature.module.extrachest.name=ExtraChest
 feature.module.extrachest.description=Automatically steal/fill items from containers
@@ -2188,12 +2196,6 @@ feature.module.extratooltips.setting.enderchests.name=EnderChests
 feature.module.extratooltips.setting.enderchests.description=
 feature.module.extratooltips.setting.enderchests.color.name=Color
 feature.module.extratooltips.setting.enderchests.color.description=
-feature.module.extratooltips.setting.chatembed.name=ChatEmbed
-feature.module.extratooltips.setting.chatembed.description=Preview image links posted in chat
-feature.module.extratooltips.setting.chatembed.size.name=Size
-feature.module.extratooltips.setting.chatembed.size.description=
-feature.module.extratooltips.setting.chatembed.enlarge.name=Enlarge
-feature.module.extratooltips.setting.chatembed.enlarge.description=
 feature.module.extratooltips.setting.books.name=Books
 feature.module.extratooltips.setting.books.description=
 feature.module.extratooltips.setting.books.scale.name=Scale
@@ -3468,6 +3470,22 @@ feature.module.skinblink.setting.mode.name=Mode
 feature.module.skinblink.setting.mode.description=
 feature.module.skinblink.setting.delay.name=Delay
 feature.module.skinblink.setting.delay.description=
+feature.module.skinblink.setting.layers.name=Layers
+feature.module.skinblink.setting.layers.description=
+feature.module.skinblink.setting.layers.cape.name=Cape
+feature.module.skinblink.setting.layers.cape.description=
+feature.module.skinblink.setting.layers.jacket.name=Jacket
+feature.module.skinblink.setting.layers.jacket.description=
+feature.module.skinblink.setting.layers.left_sleeve.name=Left Sleeve
+feature.module.skinblink.setting.layers.left_sleeve.description=
+feature.module.skinblink.setting.layers.right_sleeve.name=Right Sleeve
+feature.module.skinblink.setting.layers.right_sleeve.description=
+feature.module.skinblink.setting.layers.left_pants_leg.name=Left Pants Leg
+feature.module.skinblink.setting.layers.left_pants_leg.description=
+feature.module.skinblink.setting.layers.right_pants_leg.name=Right Pants Leg
+feature.module.skinblink.setting.layers.right_pants_leg.description=
+feature.module.skinblink.setting.layers.hat.name=Hat
+feature.module.skinblink.setting.layers.hat.description=
 
 feature.module.sourceremover.name=SourceRemover
 feature.module.sourceremover.description=Fills water and lava sources with blocks
@@ -3617,12 +3635,16 @@ feature.module.theme.setting.classic.tooltips.outline.name=Outline
 feature.module.theme.setting.classic.tooltips.outline.description=
 feature.module.theme.setting.classic.tooltips.settings.delay.name=Delay
 feature.module.theme.setting.classic.tooltips.settings.delay.description=
+feature.module.theme.setting.classic.panels.dim.name=Dim
+feature.module.theme.setting.classic.panels.dim.description=Darkens the un-focused parts of the panel
 feature.module.theme.setting.classic.panels.outline.name=Outline
 feature.module.theme.setting.classic.panels.outline.description=
 feature.module.theme.setting.classic.panels.height.name=Height
 feature.module.theme.setting.classic.panels.height.description=
 feature.module.theme.setting.classic.panels.externalpanellock.name=ExternalPanelLock
 feature.module.theme.setting.classic.panels.externalpanellock.description=
+feature.module.theme.setting.classic.panels.dim.percentage.name=Percentage
+feature.module.theme.setting.classic.panels.dim.percentage.description=
 feature.module.theme.setting.classic.items.indicator.name=Indicator
 feature.module.theme.setting.classic.items.indicator.description=
 feature.module.theme.setting.classic.windows.taskbarside.name=TaskbarSide
@@ -3743,7 +3765,7 @@ feature.module.trajectories.setting.color.description=
 
 feature.module.translate.name=Translate
 feature.module.translate.description=Translates messages in chat
-feature.module.translate.setting.my_language.name=My language
+feature.module.translate.setting.my_language.name=My Language
 feature.module.translate.setting.my_language.description=The language you understand best
 feature.module.translate.setting.sending.name=Sending
 feature.module.translate.setting.sending.description=Translate messages you send
@@ -3755,20 +3777,16 @@ feature.module.translate.setting.receiving.name=Receiving
 feature.module.translate.setting.receiving.description=Translate messages you receive
 feature.module.translate.setting.receiving.notice.name=Notice
 feature.module.translate.setting.receiving.notice.description=
-feature.module.translate.setting.receiving.autodetect_language.name=Autodetect language
-feature.module.translate.setting.receiving.autodetect_language.description=Automatically detect message language
 feature.module.translate.setting.receiving.keeporiginal.name=KeepOriginal
 feature.module.translate.setting.receiving.keeporiginal.description=
-feature.module.translate.setting.receiving.autodetect_language.language.name=Language
-feature.module.translate.setting.receiving.autodetect_language.language.description=The language to translate messages from
-feature.module.translate.setting.private_messages.name=Private messages
+feature.module.translate.setting.private_messages.name=Private Messages
 feature.module.translate.setting.private_messages.description=Translate private messages
-feature.module.translate.setting.custom_server.name=Custom server
-feature.module.translate.setting.custom_server.description=Use a custom LibreTranslate server
-feature.module.translate.setting.custom_server.url.name=URL
-feature.module.translate.setting.custom_server.url.description=The server URL (i.e. 'https://translate.rusherhack.org')
-feature.module.translate.setting.custom_server.token.name=Token
-feature.module.translate.setting.custom_server.token.description=API key for the server
+feature.module.translate.setting.libretranslate.name=LibreTranslate
+feature.module.translate.setting.libretranslate.description=Use a custom LibreTranslate server
+feature.module.translate.setting.libretranslate.url.name=URL
+feature.module.translate.setting.libretranslate.url.description=The server URL
+feature.module.translate.setting.libretranslate.token.name=Token
+feature.module.translate.setting.libretranslate.token.description=API key for the server
 
 feature.module.tridenttweaks.name=TridentTweaks
 feature.module.tridenttweaks.description=Tweak the way that Tridents work
@@ -4018,7 +4036,32 @@ feature.module.zoom.setting.cinematic.description=
 
 
 
-[hud elements]
+# hud elements
+feature.hud_element.spotify.name=Spotify
+feature.hud_element.spotify.description=
+feature.hud_element.spotify.setting.scale.name=Scale
+feature.hud_element.spotify.setting.scale.description=Size of this hud element
+feature.hud_element.spotify.setting.authenticate.name=Authenticate
+feature.hud_element.spotify.setting.authenticate.description=
+feature.hud_element.spotify.setting.background.name=Background
+feature.hud_element.spotify.setting.background.description=
+feature.hud_element.spotify.setting.background.color.name=Color
+feature.hud_element.spotify.setting.background.color.description=
+feature.hud_element.spotify.setting.updatedelay.name=UpdateDelay
+feature.hud_element.spotify.setting.updatedelay.description=
+feature.hud_element.spotify.setting.binds.name=Binds
+feature.hud_element.spotify.setting.binds.description=
+feature.hud_element.spotify.setting.binds.play/pause.name=Play/Pause
+feature.hud_element.spotify.setting.binds.play/pause.description=
+feature.hud_element.spotify.setting.binds.back.name=Back
+feature.hud_element.spotify.setting.binds.back.description=
+feature.hud_element.spotify.setting.binds.next.name=Next
+feature.hud_element.spotify.setting.binds.next.description=
+feature.hud_element.spotify.setting.binds.back_5.name=Back 5
+feature.hud_element.spotify.setting.binds.back_5.description=
+feature.hud_element.spotify.setting.binds.next_5.name=Next 5
+feature.hud_element.spotify.setting.binds.next_5.description=
+
 feature.hud_element.name.name=Name
 feature.hud_element.name.description=Show the player name
 feature.hud_element.name.setting.color.name=Color
@@ -4124,17 +4167,6 @@ feature.hud_element.playercount.setting.label.color.name=Color
 feature.hud_element.playercount.setting.label.color.description=
 feature.hud_element.playercount.setting.label.colon.name=Colon
 feature.hud_element.playercount.setting.label.colon.description=
-
-feature.hud_element.queue.name=Queue
-feature.hud_element.queue.description=Tracks the number of players in 2b2t's queue
-feature.hud_element.queue.setting.color.name=Color
-feature.hud_element.queue.setting.color.description=
-feature.hud_element.queue.setting.axis.name=Axis
-feature.hud_element.queue.setting.axis.description=
-feature.hud_element.queue.setting.normal.name=Normal
-feature.hud_element.queue.setting.normal.description=
-feature.hud_element.queue.setting.priority.name=Priority
-feature.hud_element.queue.setting.priority.description=
 
 feature.hud_element.serverbrand.name=ServerBrand
 feature.hud_element.serverbrand.description=
@@ -4302,23 +4334,6 @@ feature.hud_element.featurelist.setting.metadata.description=
 feature.hud_element.featurelist.setting.metadatacolor.name=MetadataColor
 feature.hud_element.featurelist.setting.metadatacolor.description=
 
-feature.hud_element.speed.name=Speed
-feature.hud_element.speed.description=The player's current speed
-feature.hud_element.speed.setting.color.name=Color
-feature.hud_element.speed.setting.color.description=
-feature.hud_element.speed.setting.label.name=Label
-feature.hud_element.speed.setting.label.description=
-feature.hud_element.speed.setting.label.color.name=Color
-feature.hud_element.speed.setting.label.color.description=
-feature.hud_element.speed.setting.label.colon.name=Colon
-feature.hud_element.speed.setting.label.colon.description=
-feature.hud_element.speed.setting.measurement.name=Measurement
-feature.hud_element.speed.setting.measurement.description=
-feature.hud_element.speed.setting.average.name=Average
-feature.hud_element.speed.setting.average.description=
-feature.hud_element.speed.setting.average.time.name=Time
-feature.hud_element.speed.setting.average.time.description=
-
 feature.hud_element.crystalcounter.name=CrystalCounter
 feature.hud_element.crystalcounter.description=The number of crystals the player is breaking per second
 feature.hud_element.crystalcounter.setting.color.name=Color
@@ -4340,6 +4355,8 @@ feature.hud_element.durability.setting.label.color.name=Color
 feature.hud_element.durability.setting.label.color.description=
 feature.hud_element.durability.setting.label.colon.name=Colon
 feature.hud_element.durability.setting.label.colon.description=
+feature.hud_element.durability.setting.percentage.name=Percentage
+feature.hud_element.durability.setting.percentage.description=
 
 feature.hud_element.logo.name=Logo
 feature.hud_element.logo.description=
@@ -4483,10 +4500,38 @@ feature.hud_element.entitylist.setting.metadata.pops.description=
 feature.hud_element.entitylist.setting.metadata.color.name=Color
 feature.hud_element.entitylist.setting.metadata.color.description=
 
+feature.hud_element.queue.name=Queue
+feature.hud_element.queue.description=Tracks the number of players in 2b2t's queue
+feature.hud_element.queue.setting.color.name=Color
+feature.hud_element.queue.setting.color.description=
+feature.hud_element.queue.setting.axis.name=Axis
+feature.hud_element.queue.setting.axis.description=
+feature.hud_element.queue.setting.normal.name=Normal
+feature.hud_element.queue.setting.normal.description=
+feature.hud_element.queue.setting.priority.name=Priority
+feature.hud_element.queue.setting.priority.description=
+
+feature.hud_element.speed.name=Speed
+feature.hud_element.speed.description=The player's current speed
+feature.hud_element.speed.setting.color.name=Color
+feature.hud_element.speed.setting.color.description=
+feature.hud_element.speed.setting.label.name=Label
+feature.hud_element.speed.setting.label.description=
+feature.hud_element.speed.setting.label.color.name=Color
+feature.hud_element.speed.setting.label.color.description=
+feature.hud_element.speed.setting.label.colon.name=Colon
+feature.hud_element.speed.setting.label.colon.description=
+feature.hud_element.speed.setting.measurement.name=Measurement
+feature.hud_element.speed.setting.measurement.description=
+feature.hud_element.speed.setting.average.name=Average
+feature.hud_element.speed.setting.average.description=
+feature.hud_element.speed.setting.average.time.name=Time
+feature.hud_element.speed.setting.average.time.description=
 
 
 
-[windows]
+
+# windows
 feature.window.alt_manager.name=Alt Manager
 feature.window.alt_manager.description=
 feature.window.alt_manager.setting.autoreauth.name=AutoReauth
