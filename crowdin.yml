@@ -1,9 +1,3 @@
 files:
-  - source: /lang/*.lang
+  - source: /lang/en-US.lang
     translation: /lang/%locale%.lang
-    export_languages:
-      - uk-UA
-      - de-DE
-      - es-ES
-      - tr-TR
-      - zh-CN
